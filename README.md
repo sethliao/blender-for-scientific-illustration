@@ -1,49 +1,65 @@
-# Foam/Obsidian-mkdocs-template
-[**中文文档**](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README-zh.md)
+# 开源的教程尝试
 
-![foam-mkdocs-template-png](demo-mkdocs.png)
+进入网站:
 
-* Share your **foam/obsidian/markdown** notes in a simple and intuitive way ! Support [[roamlike link]] 
+特别鸣谢
+[CG Figures](https://www.youtube.com/channel/UCk1jnnmyARHbP9nfEWUuyhQ)
 
-This template use [mkdocs](https://www.mkdocs.org/user-guide/configuration/), [mkdocs-material](https://squidfunk.github.io/mkdocs-material/), [mkdocs-roamlinks-plugin](https://github.com/Jackiexiao/mkdocs-roamlinks-plugin) and many mkdocs plugins.
-
-
-## Demo
-
-* [github page](https://jackiexiao.github.io/foam-mkdocs-template/)
-* 国内访问[gitee page](https://jackiegeek.gitee.io/foam-mkdocs-template/)
+# 展现主体
+公众号 Blender科研绘图
 
 
-## Usage：Deploy to github page
 
-1. fork this repository 
-2. add your documents to `docs` , `docs/index.md` is the main page of the website
-3. open `mkdocs.yml`, modify `site_name` to your website name, this file is the setting of website, visit link below to get more information
-* [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
-* [mkdocs](https://www.mkdocs.org/user-guide/configuration/)
-4. push to github, 
-5. go to github setting, open github page, choose `gh-pages` branch, wait a moment, then visit `http://<your-github-username.github.io/<your-repo>`, for example:`jackiexiao.github.io/blog/`
-5. Done! That's all! Have fun!
 
-Thx to `Github Action`, it make deploy a blog so easy, all you need todo is modify and push your file
+# 教程工作流
+## 从管理层面解决存在的问题 
+提前两周
+看cgfigure的教程写好大纲ppt
+录制卡壳--大纲-PPT-录两次
+公众号文章对接
+视频更新控制
+把最新版本推到第1p
+b站playlist来控制课程
+ B站和微信上面要提交链接
 
-## Deploy Locally
+ - 时间安排
+	- 整理大纲
+	- 提前录制
+- 录制卡壳
+## 工具
+[[屏幕画笔工具]]
+[[ppt画笔]]
+[[快捷键显示工具]]
+[Download | OBS](https://obsproject.com/download)
 
-The simplest way: Enter your local repo directory, make sure your python > 3.6
-```
-pip install mkdocs mkdocs-material mkdocs-roamlinks-plugin
-mkdocs serve 
-```
-Then visit `http://127.0.0.1:8000/`
+## logo
+我做logo看了一下教程
+[AI-「气泡水工厂」网络时代LOGO新趋势 - 品牌设计教程_AI（CC2019） - 虎课网](https://huke88.com/course/67656.html)
+[3步法，快速get到客户标志设计需求 - 品牌设计教程_无 - 虎课网](https://huke88.com/course/53314.html)
+[带你了解国际设计公司怎样设计LOGO？ - 品牌设计教程_PS（CC2017） - 虎课网](https://huke88.com/course/38383.html)
+[LOGO设计的国际趋势 - 品牌设计教程_ - 虎课网](https://huke88.com/course/31965.html)
+[课时：什么是标志？视频教程_翼狐网](https://www.yiihuu.com/v_201872.html)
+[课时：品牌是什么视频教程_翼狐网](https://www.yiihuu.com/v_213939.html)
 
-## Support syntax
-This template will convert roam/obsidian/foam like links to web support links
+后来发现blender logo 不能再放进logo
+[徽标— blender.org](https://www.blender.org/about/logo/)
 
-| origin                  | convert                             |
-| ----------------------- | ----------------------------------- |
-| `[Git Flow](git_flow.md)` | `[Git Flow](../software/git_flow.md)` |
-| `[[Git Flow]]`            | `[Git Flow](../software/git_flow.md)` |
-| `![[image.png]]`           | `![image.png](../image/imag.png)`      |
-| `[[#Heading identifiers]]` | `[Heading identifiers in HTML](#heading-identifiers-in-html)`
-| ` [[Git Flow#Heading]]` | `[Git Flow](../software/git_flow.md#heading)` |
-
+## 设计
+[Figma UI Design Tutorial: Get Started in Just 24 Minutes! (2021) - YouTube](https://www.youtube.com/watch?v=FTFaQWZBqQ8)
+# 帮助我们
+## 录教程
+配音[b站下载工具](https://www.jijidown.com/) 
+合作投稿
+目前权限不够
+用播放列表和动态
+## 更新教程文档
+仓库doc下才是文档主体
+其他是生成网站的东西
+然后commit就行
+## Obsidian-GitHub
+ obsidian入门可以看这个教程
+ [Obsidian.md與筆記系統 - YouTube](https://www.youtube.com/playlist?list=PLWg9zacwOnwfcpVm5pAKgOHms7PntsgJS)
+版本控制可以看这个教程哦
+[Comprehensive Obsidian & Git Sync Workflow 🔄️ | Your Mind Under Version Control - YouTube](https://www.youtube.com/watch?v=qqsNNTkhK5Y&t=6s)
+Obsidian--GitHub page可以看这个教程
+[foam-mkdocs-template/README-zh.md at master · Jackiexiao/foam-mkdocs-template](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README-zh.md)

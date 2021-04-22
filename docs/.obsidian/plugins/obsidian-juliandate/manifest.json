@@ -1,0 +1,11 @@
+{
+  "id": "obsidian-juliandate",
+  "version": "1.0.3",
+  "minAppVersion": "0.9.16",
+  "name": "Julian Date",
+  "description": "Simple hotkey to insert the current Julian Date",
+  "isDesktopOnly": false,
+  "js": "main.js",
+  "author": "thek3nger",
+  "authorUrl": "https://www.davideaversa.it/"
+}

@@ -1,0 +1,140 @@
+{
+  "main": {
+    "id": "9040bb960bcbb6a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "57c469cc0cf91111",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "index.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5c7052a55d6ec723",
+    "type": "split",
+    "children": [
+      {
+        "id": "f98221a8ca13f443",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fded0a53ffd6711",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2adbecc2986eb4a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2d86fbe238addf55",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 406.5
+  },
+  "right": {
+    "id": "d4e06561f6f28422",
+    "type": "split",
+    "children": [
+      {
+        "id": "d062a333c9623878",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "caa6bb14723c7dc9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md"
+              }
+            }
+          },
+          {
+            "id": "5cc9ba0fa4da1b0f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "faff4de09c202555",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fe50a61e9f3ea45d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 862.5,
+    "collapsed": true
+  },
+  "active": "57c469cc0cf91111",
+  "lastOpenFiles": [
+    "index.md",
+    "文档/Blender科研绘图理念.md",
+    "文档/教程总览.md",
+    "文档/视频包装测试--层叠结构建模.md",
+    "文档/调研.md",
+    "文档/blender科研绘图入门介绍.md",
+    "文档/blender绘制分子模型(二).md",
+    "文档/blendero&openbabel绘制分子模型(一).md",
+    "ppt画笔.md",
+    "文档/2020-03-13会议.md"
+  ]
+}
