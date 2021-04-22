@@ -1,6 +1,42 @@
 # 开源的教程尝试
+[进入网站](https://leoopeope.github.io/blender-for-science-visualization-course/)
+# 特色(优势)
+## 免费且高效
+- 开源建模软件&免费教程
+- 高效程序化建模
+- 海量资产转换流程
+## 基础到进阶
+- 适合自学的流程
+- 扎实却不庞杂
+- 全中文教学
+## 图文教程
+- 完整工程文件
+- 操作图文&PPT
+- obsidian双向链接串联知识
+## 教程开源
+- CC0协议
+- 快速产出 分享知识 
+- GitHub开源远程协作
 
-进入网站:
+# 关于我们
+- 加入答疑群
+- 公众号 b站 
+
+## 转变
+真正教会大家
+还是做教程自我存在感
+觉得自己还不够好
+寻求cg figure大大的授权
+开源 免费 也接受商业软件 教程免费
+三维建模--我们目前的优势 先做好这个
+用爱发电 是我们的优势 也是我们的劣势  我们这个小团体都有各自的事情   还有上课做实验还有毕业设计 
+ 经常觉得自己有没有资格去做教程，害怕把别人给教坏了
+设计帮我们找到了定位
+一群充满活力有开源精神的人，教程做的东西还很笨拙
+希望为这个开源社区还有科研贡献自己一份力量
+
+其实聚在一起 愿意花时间去做 而且不求回报 很难得 
+准备项目开源 更好反馈社区 
 
 特别鸣谢
 [CG Figures](https://www.youtube.com/channel/UCk1jnnmyARHbP9nfEWUuyhQ)
@@ -21,7 +57,7 @@
 把最新版本推到第1p
 b站playlist来控制课程
  B站和微信上面要提交链接
-
+ 
  - 时间安排
 	- 整理大纲
 	- 提前录制
@@ -57,9 +93,9 @@ b站playlist来控制课程
 其他是生成网站的东西
 然后commit就行
 ## Obsidian-GitHub
- obsidian入门可以看这个教程
- [Obsidian.md與筆記系統 - YouTube](https://www.youtube.com/playlist?list=PLWg9zacwOnwfcpVm5pAKgOHms7PntsgJS)
-版本控制可以看这个教程哦
-[Comprehensive Obsidian & Git Sync Workflow 🔄️ | Your Mind Under Version Control - YouTube](https://www.youtube.com/watch?v=qqsNNTkhK5Y&t=6s)
-Obsidian--GitHub page可以看这个教程
-[foam-mkdocs-template/README-zh.md at master · Jackiexiao/foam-mkdocs-template](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README-zh.md)
+ - obsidian入门可以看这个教程
+-  [Obsidian.md與筆記系統 - YouTube](https://www.youtube.com/playlist?list=PLWg9zacwOnwfcpVm5pAKgOHms7PntsgJS)
+- 版本控制可以看这个教程哦
+- [Comprehensive Obsidian & Git Sync Workflow 🔄️ | Your Mind Under Version Control - YouTube](https://www.youtube.com/watch?v=qqsNNTkhK5Y&t=6s)
+- Obsidian--GitHub page可以看这个教程
+- [foam-mkdocs-template/README-zh.md at master · Jackiexiao/foam-mkdocs-template](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README-zh.md)

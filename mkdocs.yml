@@ -2,7 +2,7 @@
 # mkdocs-material: https://squidfunk.github.io/mkdocs-material/
 # mkdocs: https://www.mkdocs.org/user-guide/configuration/
 
-site_name: Blender科研绘图
+site_name: blender-for-science-visualization-course
 theme:
   name: material
   #  favicon: attachment/portrait.png
