@@ -1,6 +1,6 @@
 # Blender科研绘图开源教程
 
-![[blender 科研绘图.jpg]]
+![blender科研绘图.jpg](https://github.com/leoopeope/blender-for-scientific-illustration/blob/master/docs/ZZZ-File/blender%20%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE.jpg)
 
 - 基于[CG Figures](https://www.youtube.com/channel/UCk1jnnmyARHbP9nfEWUuyhQ)教程改进,进行包装并**开源**
 - 本仓库包含**教程大纲、配套工程文件、配套课件**和**模板工具**等。
@@ -9,7 +9,7 @@
 
 ## 教程特色
 
-![[docs\ZZZ-File\萤火科研.png教程特色.jpg]]
+![教程特色](docs/ZZZ-File/教程特色.jpg)
 
 
 ## 关注我们
@@ -17,7 +17,7 @@
 
  | 折衡                           | 磊哥              |
  | ------------------------------ | ----------------- |
- | ![[Blender科研绘图公众号.jpg]] | ![[萤火科研.png]] |
+ | ![Blender科研绘图公众号.jpg](docs/ZZZ-File/Blender科研绘图公众号.jpg) | ![萤火科研.png](docs/ZZZ-File/萤火科研.png) |
 - [金葵](https://space.bilibili.com/320750885)
 - [志朋](https://space.bilibili.com/20635174)
 - [小Q](https://space.bilibili.com/182765092/)
