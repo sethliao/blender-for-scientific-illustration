@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
+            "file": "项目文档/公众号/【Blender科研绘图】案例10-编织物.md",
             "mode": "source"
           }
         }
@@ -60,7 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406.5
+    "width": 197
   },
   "right": {
     "id": "d4e06561f6f28422",
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "项目文档/公众号/【Blender科研绘图】案例10-编织物.md"
               }
             }
           },
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "项目文档/公众号/【Blender科研绘图】案例10-编织物.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "id": "a7744b81f8ebfff5",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "empty",
               "state": {}
             }
           },
@@ -128,7 +128,15 @@
             "id": "8ceab5bcd7150ca9",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6503546923826978",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -136,15 +144,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350
+    "width": 291
   },
   "active": "edd77b6bc484c9cb",
   "lastOpenFiles": [
-    "index.md",
+    "Untitled.md",
     "项目文档/仓库及项目视频介绍.md",
+    "index.md",
     "README.md",
     "仓库及项目视频介绍.md",
-    "Untitled.md",
     "Untitled 1.md",
     "常见问题.md",
     "项目文档/Blender科研绘图理念.md",
