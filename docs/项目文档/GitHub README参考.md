@@ -1,3 +1,7 @@
+# Foam/Obsidian-mkdocs-template
+
+[**中文文档**](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README-zh.md)
+
 # Footlinks
 
 En | [简](https://github.com/DahaWong/obsidian-footlinks/blob/main/README_zh.md)

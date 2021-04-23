@@ -35,6 +35,7 @@
 - [ ] 合作投稿
 	- 目前权限不够
 	- 用播放列表和动态
+- [ ]  blender设置 打包插件 
 - [ ] [Figma](https://www.figma.com/file/tdOOnEO3ARticRpMrMYznQ/Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE?node-id=455%3A1292)导出设计素材
 
 ## DOING

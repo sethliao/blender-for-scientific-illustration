@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "项目文档/公众号/【Blender科研绘图】案例10-编织物.md",
+            "file": "项目文档/2020-03-13会议.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "统一",
+                "query": "moc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目文档/公众号/【Blender科研绘图】案例10-编织物.md"
+                "file": "项目文档/2020-03-13会议.md"
               }
             }
           },
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目文档/公众号/【Blender科研绘图】案例10-编织物.md",
+                "file": "项目文档/2020-03-13会议.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,15 +148,15 @@
   },
   "active": "edd77b6bc484c9cb",
   "lastOpenFiles": [
-    "Untitled.md",
-    "项目文档/仓库及项目视频介绍.md",
-    "index.md",
-    "README.md",
-    "仓库及项目视频介绍.md",
-    "Untitled 1.md",
-    "常见问题.md",
+    "项目文档/2020-03-13会议.md",
+    "项目文档/GitHub README参考.md",
     "项目文档/Blender科研绘图理念.md",
-    "课程大纲安排.md",
-    "ZZZ-File/教程特色.jpg"
+    "项目文档/视频包装测试--层叠结构建模.md",
+    "项目文档/仓库及项目视频介绍.md",
+    "项目文档/常见问题.md",
+    "项目文档/调研.md",
+    "index.md",
+    "总览.md",
+    "Untitled.md"
   ]
 }
