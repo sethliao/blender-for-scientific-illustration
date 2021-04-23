@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "57c469cc0cf91111",
+        "id": "edd77b6bc484c9cb",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "统一",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,26 +115,40 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "a7744b81f8ebfff5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "8ceab5bcd7150ca9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 862.5,
-    "collapsed": true
+    "width": 350
   },
-  "active": "57c469cc0cf91111",
+  "active": "edd77b6bc484c9cb",
   "lastOpenFiles": [
     "index.md",
-    "文档/Blender科研绘图理念.md",
-    "文档/教程总览.md",
-    "文档/视频包装测试--层叠结构建模.md",
-    "文档/调研.md",
-    "文档/blender科研绘图入门介绍.md",
-    "文档/blender绘制分子模型(二).md",
-    "文档/blendero&openbabel绘制分子模型(一).md",
-    "ppt画笔.md",
-    "文档/2020-03-13会议.md"
+    "项目文档/仓库及项目视频介绍.md",
+    "README.md",
+    "仓库及项目视频介绍.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "常见问题.md",
+    "项目文档/Blender科研绘图理念.md",
+    "课程大纲安排.md",
+    "ZZZ-File/教程特色.jpg"
   ]
 }
