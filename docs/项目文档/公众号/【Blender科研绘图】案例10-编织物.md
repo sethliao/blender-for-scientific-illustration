@@ -8,7 +8,7 @@
 
 **难度**：⭐⭐（需要知道最基础的知识，已经了解如何移动、旋转、缩放模型）
 
-**阵列修改器/焊接**/螺旋修改器******/贝塞尔曲线**
+**[[阵列修改器]]/焊接**/螺旋修改器******/贝塞尔曲线**
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NKwn8DQpK3OlwHSM8WPS3Q2zvpBO9wBvnWTAdd1Xx2l1TfJ0nE4MqfezjtW5W0h2Jdf9fCiaDZWdg/640?wx_fmt=png)
 
@@ -34,7 +34,7 @@ Shift+A添加一个圆环
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8M3sKFLPaWF6t4aQqxadGUFMauticVBxyEYJTDzic7Ra0ns4ld6viaqibmtrtAicSUwBt0qvxpxFL35Guw/640?wx_fmt=png)
 
-给圆环添加一个阵列修改器
+给圆环添加一个[[阵列修改器]]
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8M3sKFLPaWF6t4aQqxadGUFyJxuIZdgapMKhVKomqkaib57KqQ147IUm7perZCuiaiagG8C9iaK8TqpicA/640?wx_fmt=png)
 
@@ -106,7 +106,7 @@ Shift+A添加一个圆环
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8M3sKFLPaWF6t4aQqxadGUFLNEHJKJf1D0LvLTPZkPkwLKcgqlTnuuZ4pK6VFg45SbDqPzqVOvgBw/640?wx_fmt=png)
 
-再次添加一个阵列修改器**（注意这个案例会需要很多个阵列修改器，大家注意每个修改器的名字别弄混），将相对偏移设置为下图**  
+再次添加一个[[阵列修改器]]**（注意这个案例会需要很多个[[阵列修改器]]，大家注意每个修改器的名字别弄混），将相对偏移设置为下图**  
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8M3sKFLPaWF6t4aQqxadGUFABUlLxgsT95IjmfV3icIFQxPl2l7g2NGHCx0F22hKf1EwWHEkNvw9xg/640?wx_fmt=png)
 
@@ -150,19 +150,19 @@ Shift+A添加一个贝塞尔曲线
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8M3sKFLPaWF6t4aQqxadGUFpIgPQHhdQmyMwW6mib9JNPHRodZicyaqYubwyEC4mSBEL2CZul1Y77tQ/640?wx_fmt=png)
 
-在曲线修改器\-曲线物体\-贝塞尔曲线
+在[-曲线物体]]\-贝塞尔曲线
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8M3sKFLPaWF6t4aQqxadGUF1JbLVdVp7DS0PkVjX9mS97zXx8u2YedO3q3llWRJws45XJAGV1A5rg/640?wx_fmt=png)
 
-这时候注意我们回到之前的第三个修改器，即阵列修改器.001，可以看下图，在里面将适配类型修改为适配曲线，曲线选择为贝塞尔曲线即可
+这时候注意我们回到之前的第三个修改器，即[[阵列修改器]].001，可以看下图，在里面将适配类型修改为适配曲线，曲线选择为贝塞尔曲线即可
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8M3sKFLPaWF6t4aQqxadGUFl8icZujecR3QwuaeLjIvIcsbzAj7c6EQoFnffhiaudiaH8B56lZ4zeWXg/640?wx_fmt=png)
 
-下一步继续给模型添加一个阵列修改器，设置参考下图，我们使用恒定偏移，Y和Z均设置为2 m，数量选择2
+下一步继续给模型添加一个[[阵列修改器]]，设置参考下图，我们使用恒定偏移，Y和Z均设置为2 m，数量选择2
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8M3sKFLPaWF6t4aQqxadGUFbDck69AyyJiaibpia8ic9JlqVMYxYjY3SkMrAYwpapMk31RibhiaDDicGKhkA/640?wx_fmt=png)
 
-添加好之后，我们继续添加阵列修改器，这里选择恒定偏移，Y的距离设置为4 m，数量选择为7
+添加好之后，我们继续添加[[阵列修改器]]，这里选择恒定偏移，Y的距离设置为4 m，数量选择为7
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8M3sKFLPaWF6t4aQqxadGUF39QcH2prlSa6bM5xZAMZz5nGrz7yRHzEfaWkzkQ6bd0iaIxNtEsa8wQ/640?wx_fmt=png)
 

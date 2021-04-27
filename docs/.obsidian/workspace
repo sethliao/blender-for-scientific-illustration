@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "edd77b6bc484c9cb",
+        "id": "93b9f784d71f33dc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "项目文档/2020-03-13会议.md",
-            "mode": "source"
+            "file": "科研绘图Kanban.md"
           }
         }
       }
@@ -39,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "moc",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,7 +59,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 197
+    "width": 395
   },
   "right": {
     "id": "d4e06561f6f28422",
@@ -76,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目文档/2020-03-13会议.md"
+                "file": "科研绘图Kanban.md"
               }
             }
           },
@@ -97,13 +96,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目文档/2020-03-13会议.md",
+                "file": "科研绘图Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -140,23 +139,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 291
+    "width": 291,
+    "collapsed": true
   },
-  "active": "edd77b6bc484c9cb",
+  "active": "93b9f784d71f33dc",
   "lastOpenFiles": [
-    "项目文档/2020-03-13会议.md",
-    "项目文档/GitHub README参考.md",
-    "项目文档/Blender科研绘图理念.md",
-    "项目文档/视频包装测试--层叠结构建模.md",
-    "项目文档/仓库及项目视频介绍.md",
-    "项目文档/常见问题.md",
-    "项目文档/调研.md",
-    "index.md",
+    "科研绘图Kanban.md",
+    "录三次DEMO.md",
+    "加素材.md",
     "总览.md",
-    "Untitled.md"
+    "阵列修改器.md",
+    "index.md",
+    "会议剪辑.md",
+    "案例6.md",
+    "Untitled.md",
+    "录三次.md"
   ]
 }
