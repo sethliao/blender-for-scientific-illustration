@@ -7,10 +7,14 @@
         "id": "93b9f784d71f33dc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
+<<<<<<< Updated upstream
             "file": "fibers.md",
             "mode": "source"
+=======
+            "file": "配套工程文件/案例1-烧杯建模-渐变材质-无背渲染/渲染图片/案例1-烧杯-ref.png"
+>>>>>>> Stashed changes
           }
         }
       }
@@ -60,7 +64,11 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< Updated upstream
     "width": 395
+=======
+    "width": 277
+>>>>>>> Stashed changes
   },
   "right": {
     "id": "d4e06561f6f28422",
@@ -76,7 +84,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "fibers.md"
+=======
+                "file": "配套工程文件/案例1-烧杯建模-渐变材质-无背渲染/渲染图片/案例1-烧杯-ref.png"
+>>>>>>> Stashed changes
               }
             }
           },
@@ -97,7 +109,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "fibers.md",
+=======
+                "file": "配套工程文件/案例1-烧杯建模-渐变材质-无背渲染/渲染图片/案例1-烧杯-ref.png",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,6 +165,7 @@
   },
   "active": "93b9f784d71f33dc",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "Untitled.md",
     "线框修改器.md",
     "细分.md",
@@ -159,5 +176,17 @@
     "实体化.md",
     "项目文档/公众号/【Blender科研绘图】案例1-烧杯后期处理.md",
     "项目文档/公众号/【Blender科研绘图】案例4-CNT 碳纳米管.md"
+=======
+    "配套工程文件/案例1-烧杯建模-渐变材质-无背渲染/渲染图片/案例1-烧杯-ref.png",
+    "配套工程文件/案例1-烧杯建模-渐变材质-无背渲染/渲染图片/案例1-烧杯-final.png",
+    "配套工程文件/案例1-烧杯建模-渐变材质-无背渲染/渲染图片/2.png",
+    "配套工程文件/案例1-烧杯建模-渐变材质-无背渲染/渲染图片/1.png",
+    "配套工程文件/案例1-烧杯建模-渐变材质-无背渲染/渲染图片/3.png",
+    "index.md",
+    "项目文档/仓库及项目视频介绍.md",
+    "项目文档/公众号/【Blender科研绘图】案例10-编织物.md",
+    "Untitled.md",
+    "README.md"
+>>>>>>> Stashed changes
   ]
 }
