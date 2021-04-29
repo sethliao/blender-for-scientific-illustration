@@ -18,9 +18,11 @@
  | 折衡                           | 磊哥              |
  | ------------------------------ | ----------------- |
  | ![[Blender科研绘图公众号.jpg]] | ![[萤火科研.png]] |
+- [FX创新实验室](https://space.bilibili.com/232679770)
 - [金葵](https://space.bilibili.com/320750885)
-- [志朋](https://space.bilibili.com/20635174)
 - [小Q](https://space.bilibili.com/182765092/)
+- [志朋](https://space.bilibili.com/20635174)
+- 老K
 
 
 

@@ -7,9 +7,21 @@
         "id": "93b9f784d71f33dc",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "科研绘图Kanban.md"
+            "file": "自嗨式设计？别逗了.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "261b81c1ad387eda",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "自嗨式设计？别逗了.md",
+            "mode": "source"
           }
         }
       }
@@ -38,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pdb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,6 +64,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "dbe4f8359c53ac75",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
               "state": {}
             }
           }
@@ -75,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研绘图Kanban.md"
+                "file": "自嗨式设计？别逗了.md"
               }
             }
           },
@@ -96,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "科研绘图Kanban.md",
+                "file": "自嗨式设计？别逗了.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,15 +169,15 @@
   },
   "active": "93b9f784d71f33dc",
   "lastOpenFiles": [
+    "自嗨式设计？别逗了.md",
+    "头脑风暴.md",
+    "情感调研vs人工智能.md",
     "科研绘图Kanban.md",
-    "录三次DEMO.md",
-    "加素材.md",
-    "总览.md",
-    "阵列修改器.md",
-    "index.md",
-    "会议剪辑.md",
-    "案例6.md",
     "Untitled.md",
-    "录三次.md"
+    "答疑.md",
+    "index.md",
+    "项目文档/教程/pdb-workflow.md",
+    "项目文档/2020-03-13会议.md",
+    "项目文档/加素材.md"
   ]
 }
