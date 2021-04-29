@@ -7,9 +7,10 @@
         "id": "93b9f784d71f33dc",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "科研绘图Kanban.md"
+            "file": "fibers.md",
+            "mode": "source"
           }
         }
       }
@@ -75,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科研绘图Kanban.md"
+                "file": "fibers.md"
               }
             }
           },
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "科研绘图Kanban.md",
+                "file": "fibers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,20 +145,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291,
-    "collapsed": true
+    "width": 291
   },
   "active": "93b9f784d71f33dc",
   "lastOpenFiles": [
-    "科研绘图Kanban.md",
-    "录三次DEMO.md",
-    "加素材.md",
-    "总览.md",
-    "阵列修改器.md",
-    "index.md",
-    "会议剪辑.md",
-    "案例6.md",
     "Untitled.md",
-    "录三次.md"
+    "线框修改器.md",
+    "细分.md",
+    "项目文档/公众号/【Blender科研绘图】案例14-泡沫镍.md",
+    "项目文档/公众号/【Blender科研绘图】案例13-柔性纤维.md",
+    "项目文档/公众号/【Blender科研绘图】案例12-多孔结构.md",
+    "项目文档/公众号/【Blender科研绘图】案例11-水凝胶.md",
+    "实体化.md",
+    "项目文档/公众号/【Blender科研绘图】案例1-烧杯后期处理.md",
+    "项目文档/公众号/【Blender科研绘图】案例4-CNT 碳纳米管.md"
   ]
 }

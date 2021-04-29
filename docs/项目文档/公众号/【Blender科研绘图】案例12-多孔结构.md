@@ -3,13 +3,13 @@
 
 嘿，朋友们。
 
-这期给大家讲解**多孔结构**
+这期给大家讲解**[[多孔结构]]**
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4HqHWv5w7PAFEaEZuicpNUqicqmaGQ4UXgh0ISibklybxQBdHDBKNWPA1g/640?wx_fmt=png)
 
 **难度**：⭐⭐（需要知道最基础的知识，已经了解如何移动、旋转、缩放模型）
 
-**阵列修改器 / 重建网格**/ 焊接 \*\*\*\*
+**[[阵列修改器]] / [[重建网格]]**/ [[焊接]] \*\*\*\*
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NKwn8DQpK3OlwHSM8WPS3Q2zvpBO9wBvnWTAdd1Xx2l1TfJ0nE4MqfezjtW5W0h2Jdf9fCiaDZWdg/640?wx_fmt=png)
 
@@ -71,7 +71,7 @@ Shift+A 添加一个立方体
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4lSofL52eU1MPpkO0Dibztd1LQDaxGI6R5dtxMVNp7tHKnTsqAr4hqjw/640?wx_fmt=png)
 
-给这个删除面之后的模型添加一个**焊接修改器**，让一些重复的点进行合并
+给这个删除面之后的模型添加一个**[[焊接修改器]]**，让一些重复的点进行合并
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4y3vZZQqd0mXYmZUOlAdnnia0LrNxWJKc1WO4oDcianVYSZM84fChpwZQ/640?wx_fmt=png)
 
@@ -91,7 +91,7 @@ Shift+A 添加一个立方体
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4ZaFSaDh4UOjibHrKyTO8RJH2br6d45Ic3EpGTprp5xpibeUicM8PzfAeQ/640?wx_fmt=png)
 
-重建网格-体素大小 建议设置为 0.3，太小可能会很卡，**这里计算量比较大，可能要等一会**，勾选平滑法向之后，**再点击体素重构**
+[[重建网格]]-体素大小 建议设置为 0.3，太小可能会很卡，**这里计算量比较大，可能要等一会**，勾选平滑法向之后，**再点击体素重构**
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4ibvsicHgW1yzo3ic2NnWRZFZneruicUwfUZvANaKFk9UicPlMM3ld3lMtzg/640?wx_fmt=png)
 
@@ -99,7 +99,7 @@ Shift+A 添加一个立方体
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd47Q5Xmic5oHxoOaXCeSgG7WXnJ5eYstsEV2fofXvzWC2cVjc5X7lAicTQ/640?wx_fmt=png)
 
-最后再次添加一个**平滑修改器**
+最后再次添加一个**[[平滑修改器]]**
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4K2AG2eRLrbrlHic9ee07gmnFRI3qLo8IYGsmWLcmvibM4fcl5p1sAThA/640?wx_fmt=png)
 

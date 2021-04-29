@@ -7,7 +7,7 @@
 
 **难度**：⭐⭐（需要知道最基础的知识，已经了解如何移动、旋转、缩放模型）
 
-阵列修改器**/**粒子修改器**/\*\***骨架修改器 / 无背渲染 \*\*
+[[阵列修改器]]**/**[[粒子修改器]]**/\*\***[[骨架修改器]] / [[无背渲染]] \*\*
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHD5jxpvIjBumUpJNdENWOOfI3qcnvXfBBiaW2WxeoRpiccib5XQ0kiaiaCmQ/640?wx_fmt=png)
 
@@ -97,7 +97,7 @@ Shift+A 新建一个【圆环】，如下图所示
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHyWg9pGgKEtSc8D2spa7lJd3KUfPOaeibrHXtm7YLLAkVEQsUf5alGqw/640?wx_fmt=png)
 
-在右侧添加【阵列修改器】
+在右侧添加【[[阵列修改器]]】
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHerRicyTWqPhfSr0MeRlkAetJell6wjxboftAQmPvUAYzib6nNibXc8CwA/640?wx_fmt=png)
 
@@ -109,15 +109,15 @@ Shift+A 新建一个【圆环】，如下图所示
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHyfX6mtDTo6YJJIlFoj6wo3MTZmdUHB29WjqajkYd0THOKRBly3lXrg/640?wx_fmt=png)
 
-复制完沿着 X 轴，我们再添加一个【阵列修改器】，此时将数量也设置为 6，取消勾选相对偏移，勾选恒定偏移，将模型沿着 Y 轴移动 3 m 进行复制，最后一定不要选择合并，否则模型会乱掉（3 m 是根据模型的大小算出来的，当然自己也可以试试大概为多少可以重合为下图）
+复制完沿着 X 轴，我们再添加一个【[[阵列修改器]]】，此时将数量也设置为 6，取消勾选相对偏移，勾选恒定偏移，将模型沿着 Y 轴移动 3 m 进行复制，最后一定不要选择合并，否则模型会乱掉（3 m 是根据模型的大小算出来的，当然自己也可以试试大概为多少可以重合为下图）
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHCCqzZFBOYdJac3uEukeujVDTNjdlTVg3Ag0g4xib3BwQmLfqLiaoJeRg/640?wx_fmt=png)
 
-选择物体之后，添加【线框修改器】，将厚度设置为合适值，这里推荐为 0.16 m，同时勾选边界范围优化边界模型的面（如果不勾选边界范围，大家可以换一下角度看一下边缘，可以发现会有缺面的情况）
+选择物体之后，添加【[[线框修改器]]】，将厚度设置为合适值，这里推荐为 0.16 m，同时勾选边界范围优化边界模型的面（如果不勾选边界范围，大家可以换一下角度看一下边缘，可以发现会有缺面的情况）
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHO3fXLIz89MahEmyicnjBeibzYONzuYicM1ROJVoNMyeNfl5KS24rAG28w/640?wx_fmt=png)
 
-现在边框骨架仍然为棱角尖锐的模型，我们添加一个【倒角修改器】，推荐将宽度设置为 0.3 m，段数为 2 或 3（段数也高骨架越圆滑，但是会提高系统资源占用）
+现在边框骨架仍然为棱角尖锐的模型，我们添加一个【[[倒角修改器]]】，推荐将宽度设置为 0.3 m，段数为 2 或 3（段数也高骨架越圆滑，但是会提高系统资源占用）
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHNVaCBoHC8MTU8WZo8hPic9TN0R1IpUictA7Gry3tQia0jic7N0Wj6Dgrcw/640?wx_fmt=png)
 
@@ -201,7 +201,7 @@ Shift+A 新建一个【圆环】，如下图所示
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UH76icL1fFVic6Aa6niazmicfyibJjnicBUUTL88n6k2aicFc88erR4tmB8cmDQ/640?wx_fmt=png)
 
-**3 渲染设置**
+**3 [[渲染设置]]**
 
 选择右下角小电视图标，进行渲染设置，将渲染引擎勾选为 Cycles，设备选择为 GPU（没有也无所谓用 CPU 即可），降噪随便设置，推荐为 OpenImageDenoise
 
@@ -211,7 +211,7 @@ Shift+A 新建一个【圆环】，如下图所示
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHZdCymuL0I9JzNu8LkhTSC3DU9qBH8Ogq02rpSDy1qbQdA3frbep5icg/640?wx_fmt=png)
 
-然后 Shift+A 添加一个【日光】，然后按 G，Z 移动合适的距离
+然后 Shift+A 添加一个【[[日光]]】，然后按 G，Z 移动合适的距离
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHoNqbInM0eBH8xTfdFUOy0KQ1y4k7UZS0THCx8ibUv9krISL8iaeWDiaww/640?wx_fmt=png)
 
@@ -219,7 +219,7 @@ Shift+A 新建一个【圆环】，如下图所示
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHXnGufQ2n500ia7ZQJZ3l9ef0wZTG2T8ko42iaTXD5ssTIFqX52wTRmiaA/640?wx_fmt=png)
 
-最后 Shift+A 添加一个【摄像机】
+最后 Shift+A 添加一个【[[摄像机]]】
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHlhtmicP7Z24jm67EH21HBDX2XnvA2XBp7EyTJ34Zf1l7dibBYvibTXibLg/640?wx_fmt=png)
 
@@ -239,7 +239,7 @@ Shift+A 新建一个【圆环】，如下图所示
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHiaMYftespyczRLr7TSalJyQ0aibYlw851xHzISLnbzxXWulfAzhQF8sw/640?wx_fmt=png)
 
-最后按 F12，进行渲染输出
+最后按 F12，进行[[渲染输出]]
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHichXMI6CBUvOTqRsAnuzoGOHETtwzRa4cUSdW1tR0Lohw1jzw6466zQ/640?wx_fmt=png)
 

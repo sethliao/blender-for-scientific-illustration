@@ -7,7 +7,7 @@
 
 **难度**：⭐⭐（需要知道最基础的知识，已经了解如何移动、旋转、缩放模型）
 
-**区域选择 / 正十二面体**/ 细分**\*\***/ 降噪 \*\*
+**区域选择 / 正十二面体**/ [[细分]]**\*\***/ [[降噪]] \*\*
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8PkibjxNTWYNYncWTCiaTcnNOoXxoT0BbHO1awm4l8m0n40b0sM5AHp1dU9jicQ6GAiaFSNa0wU1UeINw/640?wx_fmt=png)
 
