@@ -11,7 +11,7 @@ blender 的视频建模在链接可以见，主要讲述建模的思路
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8MQxJ5emj96PDoJf9TQXvXvZ5BXCbCdZGeMvSmXx8NxIx1GH6Knk6OWaUPaZGRZoOVNVHjmOaXxkw/640?wx_fmt=png)
 
-2 记住设置细分为 1
+2 记住设置[[细分]]为 1
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8MQxJ5emj96PDoJf9TQXvXvJoSxvvRIJicwMXibV8HbpM3DagB1l8ybwXf9oHQqLaUK2c7ukicusxD5g/640?wx_fmt=png)
 

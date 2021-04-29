@@ -7,7 +7,7 @@
 
 **难度**：⭐⭐⭐（需要知道最基础的知识，已经了解如何移动、旋转、缩放模型）
 
-**实例化 / AO 遮蔽光**/ 无背渲染**\*\***/ 置换修改器 \*\*
+**实例化 / AO 遮蔽光**/ 无背渲染**\*\***/ [[置换修改器]] \*\*
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8MmibMtldLts5GhK8y0DlDzxmODbHMVHpOKIamE6FzFLopORg9P3lwVQK4a7K21QPU4hs5MibibbzuEA/640?wx_fmt=png)
 
@@ -25,11 +25,11 @@ Shift+A 添加一个默认立方体
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8MmibMtldLts5GhK8y0DlDzxD4UvsxZVP22H4q8lPScKAnibFHXicVtnMA6kzeRXbicu6sTj9ewWw6trg/640?wx_fmt=png)
 
-在修改器选项里面添加一个表面细分修改器
+在修改器选项里面添加一个表面[[细分]]修改器
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8MmibMtldLts5GhK8y0DlDzxwjEUXt3fOfibVnEHs1Lz6MDQ49txxib5FKiaibjg02OFGbIObLsTz3bUQw/640?wx_fmt=png)
 
-将细分设置为下图
+将[[细分]]设置为下图
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8MmibMtldLts5GhK8y0DlDzx5MelkabhFOjuG5DQPb8FptZ3MykJ0HXONYzEUyDapvIyPiaibL0jtDDg/640?wx_fmt=png)
 
@@ -159,7 +159,7 @@ Shift+A 添加一个默认立方体
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8MmibMtldLts5GhK8y0DlDzxSewFGDwW7OVZ4fmnfGul9ufoq9G7WQ1v0Pz5ckDAHPphu9JP5G003g/640?wx_fmt=png)
 
-磷脂双分子层建好之后，我们选择栅格，给其添加起伏效果，添加修改器-置换修改器，然后跟着下图操作即可
+磷脂双分子层建好之后，我们选择栅格，给其添加起伏效果，添加修改器-[[置换修改器]]，然后跟着下图操作即可
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8MmibMtldLts5GhK8y0DlDzx55eibaQkfDfYasO9hwsHUFnGZmOvAcAARYJrDMqzTIyEUq2FmlTFxxg/640?wx_fmt=png)
 
@@ -187,7 +187,7 @@ Shift+A 添加一个默认立方体
 
 **3 渲染设置**
 
-将渲染器设置为 Cycles-GPU 渲染-打开降噪选项
+将渲染器设置为 Cycles-GPU 渲染-打开[[降噪]]选项
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8MmibMtldLts5GhK8y0DlDzxzian27nedWbtclWI1tmM1iaaicFXNVq6QXOOQasCPA1UzuX2WsIHttibicg/640?wx_fmt=png)
 

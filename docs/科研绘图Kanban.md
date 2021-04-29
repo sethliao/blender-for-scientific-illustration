@@ -18,11 +18,6 @@ kanban-plugin: basic
 - [ ] [Figma](https://www.figma.com/file/tdOOnEO3ARticRpMrMYznQ/Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE?node-id=455%3A1292)导出设计素材
 
 
-## DOING
-
-- [x] 团队内测
-
-
 ## DONE
 
 **Complete**
@@ -42,6 +37,9 @@ kanban-plugin: basic
 
 - [x] [[pdb-workflow]]
 - [ ] [[CAD workflow]]
+- [ ] 几何节点倒入万物有灵
+- [ ] 用FreeCAD转换资产
+- [ ] cg figure素材导入万物有灵
 
 
 ## 论文配图案例
@@ -60,16 +58,8 @@ kanban-plugin: basic
 - [ ] 封面插画
 
 
-## logo片头
-
-- [ ] key mesh 动画
-- [ ] 曲线插件
-- [ ] lmms音效
-
-
 ## 更改封面模板
 
-- [ ] 卷纸array
 
 
 ## Done
@@ -77,3 +67,12 @@ kanban-plugin: basic
 **Complete**
 
 
+***
+
+## Archive
+
+- [x] 团队内测
+- [ ] 卷纸array
+- [ ] key mesh 动画
+- [ ] 曲线插件
+- [ ] lmms音效

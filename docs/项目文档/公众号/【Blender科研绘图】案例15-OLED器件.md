@@ -23,7 +23,7 @@ Shift+A 添加一个平面
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NlvZria16HCep5JaR6NcyzEysFUxdCrR32HiaMRsFKic1gKbLdxO2HNy7MZ5Cu8V29EZEe7xQ2m2SHg/640?wx_fmt=png)
 
-添加一个实体化修改器，厚度-0.1 m, 
+添加一个[[实体化]]，厚度-0.1 m, 
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NlvZria16HCep5JaR6NcyzEQGjsUZnYy59AmEKfBSxlm8mPU9EuKKXjrmutf7iaA62icSyniaiceIo9Pg/640?wx_fmt=png)
 
@@ -31,7 +31,7 @@ Shift+A 添加一个平面
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NlvZria16HCep5JaR6NcyzE8qDb83UFwPKT3ibUQqSZxpfribjpXKtgaURA1D164MuqH4ljz0Gkjqiag/640?wx_fmt=png)
 
-按 Tab 回到物体模式，添加阵列修改器，数量设置为 5，相对偏移设置为 Z 轴，数量设置为 2.2，完成之后**将两个修改器都进行应用**
+按 Tab 回到物体模式，添加[[阵列修改器]]，数量设置为 5，相对偏移设置为 Z 轴，数量设置为 2.2，完成之后**将两个修改器都进行应用**
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NlvZria16HCep5JaR6NcyzEFpeEc50Jh1ZiaK019GibXTU3eymA7icpHK5RUL0aeHnTicSdq7FlEQH67g/640?wx_fmt=png)
 
@@ -95,7 +95,7 @@ Phosphor 层 添加一个蓝色
 
 **3 渲染设置**
 
-渲染设置使用 Cycles-GPU 计算，勾选降噪，在胶片中选择透明-透明玻璃
+渲染设置使用 Cycles-GPU 计算，勾选[[降噪]]，在胶片中选择透明-透明玻璃
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NlvZria16HCep5JaR6NcyzEZrHDtQia5Y8n0ichdteVpVbWkia4V2LYavt2HSgn9AKqNvxtW0bvTX3Ew/640?wx_fmt=png)
 

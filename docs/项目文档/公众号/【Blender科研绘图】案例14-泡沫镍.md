@@ -73,7 +73,7 @@ Shift+A 添加一个棱角球
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8PkibjxNTWYNYncWTCiaTcnNOHQ3qXfLotMIbNAuJkWfnvKsoicL9pqoWBlNImmkOicF7uWYjCMmrEvzQ/640?wx_fmt=png)
 
-添加一个细分修改器，将视图和渲染均设置为 3
+添加一个[[细分]]，将视图和渲染均设置为 3
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8PkibjxNTWYNYncWTCiaTcnNO1iatr0SqEzqYnwzTjaEKAnrNmo5ic11GicJRMAKlshh7PhUKQnNVnEWUA/640?wx_fmt=png)
 
@@ -101,7 +101,7 @@ Shift+A 添加一个棱角球
 
 **3 渲染设置**
 
-渲染将其设置为 Cycles-GPU 渲染，自适应采样，勾选降噪，打开透明，新朋友请参考[【Blender 科研绘图】案例 4 - 纳米阵列](http://mp.weixin.qq.com/s?__biz=Mzg3ODA5MTk2Mw==&mid=2247484259&idx=1&sn=e5f0ff741c8638b845faeace99855563&chksm=cf1848b7f86fc1a1a874881b152f7ade02ec042a5114197bce84b9b2d9dac2d0abed3bbbd0ed&scene=21#wechat_redirect)
+渲染将其设置为 Cycles-GPU 渲染，自适应采样，勾选[[降噪]]，打开透明，新朋友请参考[【Blender 科研绘图】案例 4 - 纳米阵列](http://mp.weixin.qq.com/s?__biz=Mzg3ODA5MTk2Mw==&mid=2247484259&idx=1&sn=e5f0ff741c8638b845faeace99855563&chksm=cf1848b7f86fc1a1a874881b152f7ade02ec042a5114197bce84b9b2d9dac2d0abed3bbbd0ed&scene=21#wechat_redirect)
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8PkibjxNTWYNYncWTCiaTcnNOb1a8HGxg7lTTO49u67icwicTfOYpIMoibYNJFrHrMGUUmvRdv4Ajz5j0g/640?wx_fmt=png)
 

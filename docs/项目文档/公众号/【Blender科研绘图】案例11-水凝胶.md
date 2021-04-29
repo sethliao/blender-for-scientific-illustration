@@ -49,7 +49,7 @@ Shift+A 添加一个平面
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4LlJXs9guZ8IJ8L2icn9XxNPiciaib8ObjjnZNH7t5W1YMRljDdAFCCIVMA/640?wx_fmt=png)
 
-选择平面-添加一个置换修改器
+选择平面-添加一个[[置换修改器]]
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4JTZggfQb2RyYdcHRcia1PwNVKgOB7o1AmQlqdf1hWz5UOHluHib1D25A/640?wx_fmt=png)
 
@@ -69,7 +69,7 @@ Shift+A 添加一个平面
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4Nx1Zict9hJqOQ5HviaNm0eExwXj6lDRqGUfcNDKJYXKZGJcbcRNXFwnw/640?wx_fmt=png)
 
-设置好这里之后，再次到修改器选项，将置换修改器的强度 / 力度设置为 0.6，这个也可以自己进行设置，同样不要太大或者太小
+设置好这里之后，再次到修改器选项，将[[置换修改器]]的强度 / 力度设置为 0.6，这个也可以自己进行设置，同样不要太大或者太小
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4WpLrnRKoh1Nia05Gf2Z0TDibBvMtHTESOtpVhF3qmxmtJHEV4wGXZRTQ/640?wx_fmt=png)
 
@@ -85,7 +85,7 @@ Shift+A 添加一个平面
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4ZPyFDBWqF4YERpHviaj8Qlzic7licuDyIxKJewhjV46icFFSW03kvibKuPA/640?wx_fmt=png)
 
-Shift+A 再次添加一个经纬球，按 S 将经纬球缩小，同样自己看着顺眼即可，**这时候可以 Shift+D 可以将小球复制，或者可以按下图制作方法，使用阵列修改器可以建模出阵列**
+Shift+A 再次添加一个经纬球，按 S 将经纬球缩小，同样自己看着顺眼即可，**这时候可以 Shift+D 可以将小球复制，或者可以按下图制作方法，使用[[阵列修改器]]可以建模出阵列**
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4BibEtqxlQVhK3Liafxh4daXsOtkYyouGfGIvpyEsTRPJmfcEoC7laXgw/640?wx_fmt=png)
 
@@ -99,7 +99,7 @@ Shift+A 再次添加一个经纬球，按 S 将经纬球缩小，同样自己看
 
 **2 渲染设置**
 
-渲染引擎设置为 Cycles-GPU 渲染-打开降噪选项[【Blender 科研绘图】案例 4 - 纳米阵列](http://mp.weixin.qq.com/s?__biz=Mzg3ODA5MTk2Mw==&mid=2247484259&idx=1&sn=e5f0ff741c8638b845faeace99855563&chksm=cf1848b7f86fc1a1a874881b152f7ade02ec042a5114197bce84b9b2d9dac2d0abed3bbbd0ed&scene=21#wechat_redirect)
+渲染引擎设置为 Cycles-GPU 渲染-打开[[降噪]]选项[【Blender 科研绘图】案例 4 - 纳米阵列](http://mp.weixin.qq.com/s?__biz=Mzg3ODA5MTk2Mw==&mid=2247484259&idx=1&sn=e5f0ff741c8638b845faeace99855563&chksm=cf1848b7f86fc1a1a874881b152f7ade02ec042a5114197bce84b9b2d9dac2d0abed3bbbd0ed&scene=21#wechat_redirect)
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4EPCiaKu54RFt4aH1ZP3VGPeaOBNXMz4FY0C5QR9kgcBqk4rWZTW3r1g/640?wx_fmt=png)
 

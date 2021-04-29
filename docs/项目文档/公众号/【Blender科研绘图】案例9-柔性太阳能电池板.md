@@ -33,7 +33,7 @@ Shift+A 添加一个平面
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NKwn8DQpK3OlwHSM8WPS3QKFr9yjURtx2cYu2LdKicEbtrqJTIBcNR9icS7Sktiabib0CnE8XQZg3iavA/640?wx_fmt=png)
 
-再按一次 Tab 退出编辑模式，进入物体模式，我们想要给这个平面增加厚度，所以我们添加一个实体化修改器
+再按一次 Tab 退出编辑模式，进入物体模式，我们想要给这个平面增加厚度，所以我们添加一个[[实体化]]修改器
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NKwn8DQpK3OlwHSM8WPS3QP2nFoMnvqS0ick4OCw3KmoGFQVU6MsZH4wQ6o8Cp20Z6qBFicBtetjyA/640?wx_fmt=png)
 
@@ -43,11 +43,11 @@ Shift+A 添加一个平面
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NKwn8DQpK3OlwHSM8WPS3QKhIE2cPlVAUxycZicBKjbTAKVrG62HLpa6lK3ticicyy7VLnGGicLlKIjA/640?wx_fmt=png)
 
-现在模型变角太直，我们想让它圆滑一点，所以我们添加一个倒角修改器
+现在模型变角太直，我们想让它圆滑一点，所以我们添加一个[[倒角修改器]]
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NKwn8DQpK3OlwHSM8WPS3Q6PnEhicU9ibtedWG6a97a5NE0cOCbYTmMePf65nvhGWNXEdSkWeVib4pA/640?wx_fmt=png)
 
-将倒角修改器的数量设置为 0.01 m, 段数设置为 2
+将[[倒角修改器]]的数量设置为 0.01 m, 段数设置为 2
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NKwn8DQpK3OlwHSM8WPS3QHlp8BTx810SiciakKv8zNnHe9PbWmnFxdmWictB0noy3vUq9bupgDac1Q/640?wx_fmt=png)
 
@@ -205,7 +205,7 @@ Shift+A 添加一个空物体
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NKwn8DQpK3OlwHSM8WPS3Qc0ibg90ibCrxpMJPic5dd7uJVfO15MI1fryBUGkSmRwG9gdQtWib5gMURg/640?wx_fmt=png)
 
-所以我们添加一个表面细分修改器
+所以我们添加一个表面[[细分]]
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NKwn8DQpK3OlwHSM8WPS3QQ0PJyzYkdnl0afE4BibNIsAbp5efj75l0K3gv9cHiaMG6hTaiaQejiaWQQ/640?wx_fmt=png)
 

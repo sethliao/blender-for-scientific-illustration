@@ -31,7 +31,7 @@ Shift+A 添加一个立方体
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4TM8xfNnPXStMsg6YXp4JICgWBxD9FWRuF0zxF9lotHCLNepAI6roXQ/640?wx_fmt=png)
 
-接下来给这个立方体，添加**三个阵列修改器**，这三个修改器分别让其在 X，Y，Z 方向进行复制 10 个，这三个阵列修改器的设置见下图，第一个阵列修改器的相对偏移，系数 X 设置为 1.00
+接下来给这个立方体，添加**三个[[阵列修改器]]**，这三个修改器分别让其在 X，Y，Z 方向进行复制 10 个，这三个阵列修改器的设置见下图，第一个阵列修改器的相对偏移，系数 X 设置为 1.00
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4rwDzF4DZ9qgDnicQ1sflMmlpDicOtyD07PibCOFCdqAgToQOic9ssUuDUA/640?wx_fmt=png)
 
@@ -103,7 +103,7 @@ Shift+A 添加一个立方体
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4K2AG2eRLrbrlHic9ee07gmnFRI3qLo8IYGsmWLcmvibM4fcl5p1sAThA/640?wx_fmt=png)
 
-平滑修改器将重复设置为 5
+[[平滑修改器]]将重复设置为 5
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4ez1l6cfEJYYILGxJGIrDGBXqZGcJVWvoyAawPLDGaC2TmXWLLibE6Bg/640?wx_fmt=png)
 
@@ -115,7 +115,7 @@ Shift+A 添加一个立方体
 
 **3 渲染设置**
 
-渲染设置为 Cycles-GPU 计算，打开降噪选项
+渲染设置为 Cycles-GPU 计算，打开[[降噪]]选项
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8OkfOP8pCztVjyLrUMw8Gd4VKotQHOOm6z94uqZP9nKM54YCx6cibdlUr0ulmSIib8eYKeiaOYwZdR4Q/640?wx_fmt=png)
 

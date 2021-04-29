@@ -173,7 +173,7 @@ Tab 进入编辑模式
 
 **3 渲染设置**
 
-将渲染设置为 Cycles-GPU 渲染，打开自适应采样，勾选降噪
+将渲染设置为 Cycles-GPU 渲染，打开自适应采样，勾选[[降噪]]
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8P82ZtrAWqshLZmqEptHE0tiaAyFDbtM2spVXBRWm4azsDrCaziabkVp5kOKgU6MYlkvOga9kcc4Yjg/640?wx_fmt=png)
 

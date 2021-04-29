@@ -59,7 +59,7 @@ Shift+A 添加一个默认立方体，不要调整大小
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8PgFZfZoLEHSI415fDI1zibTl9VibqEmPLpjhKeWVZlZbzn4AYLu4r5ATgJl8hCjNQq3BbMpcaic5rUA/640?wx_fmt=png)
 
-然后右键-细分（这么做的目的是为了让这两个连线的中点出现一个新的点，后面大家就知道为什么这么做了）
+然后右键-[[细分]]（这么做的目的是为了让这两个连线的中点出现一个新的点，后面大家就知道为什么这么做了）
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8PgFZfZoLEHSI415fDI1zibTlBeqp52BVLV71knRibhZJ5PNicc3UPYWia7TCgS3SRkhxH7RNqKwm771A/640?wx_fmt=png)
 
@@ -83,7 +83,7 @@ Shift+A 添加一个默认立方体，不要调整大小
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8PgFZfZoLEHSI415fDI1zibTSkXGxOd6AW9EicXS0wQYa9xIaSUbCUiaibyicugFNn7bFXZVuYWpfZOO3A/640?wx_fmt=png)
 
-然后选择立方体，按下图所示，给立方体添加三个阵列修改器
+然后选择立方体，按下图所示，给立方体添加三个[[阵列修改器]]
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8PgFZfZoLEHSI415fDI1zibTRQQuSJQA5FkEUu1cUdHGMibEkF1v4iaqWvQxgu2P3C0R99ILdt0mVUTw/640?wx_fmt=png)
 
@@ -205,7 +205,7 @@ Shift+A 添加一个默认立方体，不要调整大小
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8PgFZfZoLEHSI415fDI1zibTOMplufAwXK4AaNhQozsDLuClqT9RX0DW8DU73aqF6K0Y1JiaGFOd2og/640?wx_fmt=png)
 
-渲染器按下图设置，选择 Cycles-GPU 计算（没用独立显卡的按 CPU 计算也可以），勾选图片降噪
+渲染器按下图设置，选择 Cycles-GPU 计算（没用独立显卡的按 CPU 计算也可以），勾选图片[[降噪]]
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8PgFZfZoLEHSI415fDI1zibTdAM8hFJ1icNEVcprZuQbJhbiaqPDIlc3tRQ8bucHDNdxyK44mkUFjJww/640?wx_fmt=png)
 

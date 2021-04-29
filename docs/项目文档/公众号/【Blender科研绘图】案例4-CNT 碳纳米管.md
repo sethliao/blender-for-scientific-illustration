@@ -203,7 +203,7 @@ Shift+A 新建一个【圆环】，如下图所示
 
 **3 [[渲染设置]]**
 
-选择右下角小电视图标，进行渲染设置，将渲染引擎勾选为 Cycles，设备选择为 GPU（没有也无所谓用 CPU 即可），降噪随便设置，推荐为 OpenImageDenoise
+选择右下角小电视图标，进行渲染设置，将渲染引擎勾选为 Cycles，设备选择为 GPU（没有也无所谓用 CPU 即可），[[降噪]]随便设置，推荐为 OpenImageDenoise
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8NCiaibuKIIhchMnSG1Oz69UHQwZn4ibqOribjLRAWrIaIRiciaI1ibPxRDU9764LBpE5JOuGKm2RjlBlT3A/640?wx_fmt=png)
 

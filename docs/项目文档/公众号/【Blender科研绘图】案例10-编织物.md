@@ -186,7 +186,7 @@ Shift+A添加一个贝塞尔曲线
 
 **3 渲染设置**
 
-渲染设置，选择Cycles，GPU渲染，打开降噪选项，在胶片里面选择透明。同样新手可以参考之前的[【Blender科研绘图】案例4-纳米阵列](http://mp.weixin.qq.com/s?__biz=Mzg3ODA5MTk2Mw==&mid=2247484259&idx=1&sn=e5f0ff741c8638b845faeace99855563&chksm=cf1848b7f86fc1a1a874881b152f7ade02ec042a5114197bce84b9b2d9dac2d0abed3bbbd0ed&scene=21#wechat_redirect)
+渲染设置，选择Cycles，GPU渲染，打开[[降噪]]选项，在胶片里面选择透明。同样新手可以参考之前的[【Blender科研绘图】案例4-纳米阵列](http://mp.weixin.qq.com/s?__biz=Mzg3ODA5MTk2Mw==&mid=2247484259&idx=1&sn=e5f0ff741c8638b845faeace99855563&chksm=cf1848b7f86fc1a1a874881b152f7ade02ec042a5114197bce84b9b2d9dac2d0abed3bbbd0ed&scene=21#wechat_redirect)
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8M3sKFLPaWF6t4aQqxadGUFAXmF4W2KxYfKA4KzpxkUia2yZteMfibA7S69qrkcWoFNibrhyyxzLypPA/640?wx_fmt=png)
 
