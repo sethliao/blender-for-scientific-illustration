@@ -4,6 +4,26 @@ kanban-plugin: basic
 
 ---
 
+## 资产库
+
+- [x] [[pdb-workflow]]
+- [ ] [[CAD workflow]]
+- [ ] 几何节点倒入万物有灵
+- [ ] 用FreeCAD转换资产
+- [ ] cg figure素材导入万物有灵
+
+
+## 论文配图案例
+
+- [ ] [[录三次DEMO ]]
+- [ ] PPT
+
+
+## 双向链接系统
+
+- [ ] 官方文档丢进ob
+
+
 ## TODO
 
 - [ ] [[仓库及项目视频介绍]]
@@ -15,7 +35,11 @@ kanban-plugin: basic
 - [ ] 教程特色介绍添加[[Blender科研绘图理念#教程开源]]
 - [ ] 合作投稿
 - [ ] blender设置 打包插件 
-- [ ] [Figma](https://www.figma.com/file/tdOOnEO3ARticRpMrMYznQ/Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE?node-id=455%3A1292)导出设计素材
+
+
+## Done
+
+**Complete**
 
 
 ## DONE
@@ -33,38 +57,14 @@ kanban-plugin: basic
 - [x] 得到了CG Figure大大授权
 
 
-## 资产库
-
-- [x] [[pdb-workflow]]
-- [ ] [[CAD workflow]]
-- [ ] 几何节点倒入万物有灵
-- [ ] 用FreeCAD转换资产
-- [ ] cg figure素材导入万物有灵
-
-
-## 论文配图案例
-
-- [ ] [[录三次DEMO ]]
-- [ ] PPT
-
-
 ## 会议剪辑 #志朋
 
-- [ ] 粗剪
+- [ ] 粗剪 #志朋 
 - [ ] 分类
 - [ ] 人物头像加blender标签
 - [ ] 语音识别字幕
 - [ ] [[加素材]]
 - [ ] 封面插画
-
-
-## 更改封面模板
-
-
-
-## Done
-
-**Complete**
 
 
 ***
@@ -76,3 +76,4 @@ kanban-plugin: basic
 - [ ] key mesh 动画
 - [ ] 曲线插件
 - [ ] lmms音效
+- [ ] [Figma](https://www.figma.com/file/tdOOnEO3ARticRpMrMYznQ/Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE?node-id=455%3A1292)导出设计素材
