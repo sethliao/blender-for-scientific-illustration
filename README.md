@@ -62,5 +62,5 @@
  ## 帮助我们
 -   [Issues](https://github.com/leoopeope/blender-for-scientific-illustration/issues) 给我们反馈
 -   [Pull requests](https://github.com/leoopeope/blender-for-scientific-illustration/pulls)帮助我们完善这个仓库项目
-- 仓库内容遵循[CC0公共领域协议](https://creativecommons.org/publicdomain/zero/1.0/deed.zh),上传和更改默认遵循此协议
+
 
