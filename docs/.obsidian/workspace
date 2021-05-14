@@ -4,35 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "93b9f784d71f33dc",
+        "id": "30fcde317a87afae",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CAD workflow.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "0eb148fbf1518b21",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "CAD workflow.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "e3637576f498d40b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "项目文档/教程/pdb-workflow.md",
-            "mode": "source"
+            "file": "项目文档/TODO/钙钛矿太阳能电池.md",
+            "mode": "preview"
           }
         }
       }
@@ -79,7 +57,7 @@
             }
           },
           {
-            "id": "dbe4f8359c53ac75",
+            "id": "779661197af14ac8",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -90,23 +68,30 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395
+    "width": 285
   },
   "right": {
     "id": "d4e06561f6f28422",
     "type": "split",
     "children": [
       {
-        "id": "d062a333c9623878",
+        "id": "537ee0ecce23e0a9",
         "type": "tabs",
         "children": [
           {
-            "id": "caa6bb14723c7dc9",
+            "id": "faff4de09c202555",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "backlink",
               "state": {
-                "file": "CAD workflow.md"
+                "file": "项目文档/TODO/钙钛矿太阳能电池.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -122,73 +107,49 @@
             }
           },
           {
-            "id": "faff4de09c202555",
+            "id": "caa6bb14723c7dc9",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "outline",
               "state": {
-                "file": "CAD workflow.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "file": "项目文档/TODO/钙钛矿太阳能电池.md"
               }
             }
           },
           {
-            "id": "fe50a61e9f3ea45d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "a7744b81f8ebfff5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "8ceab5bcd7150ca9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "36b39027b4ebb8f4",
+            "id": "db2adc0759d387ba",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "fb379078dfe44a70",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 291,
+    "width": 180,
     "collapsed": true
   },
-  "active": "93b9f784d71f33dc",
+  "active": "30fcde317a87afae",
   "lastOpenFiles": [
-    "CAD workflow.md",
-    "科研绘图Kanban.md",
-    "项目文档/教程/pdb-workflow.md",
-    "index.md",
-    "教程总览.md",
-    "Untitled.md",
-    "渲染设置.md",
-    "项目文档/wiki/阵列修改器.md",
-    "项目文档/公众号/【Blender科研绘图】案例11-水凝胶.md",
-    "项目文档/公众号/【Blender科研绘图】案例4-CNT 碳纳米管.md"
+    "项目文档/TODO/钙钛矿太阳能电池.md",
+    "200-Area/2021-05-14.md",
+    "life Kanban.md",
+    "300-Resource/连接文件夹.md",
+    "200-Area/2021-05-09.md",
+    "200-Area/2021-05-11.md",
+    "200-Area/2021-05-10.md",
+    "300-Resource/KanBan.md",
+    "000-MOC/我MOC.md",
+    "200-Area/2021-05-12.md"
   ]
 }

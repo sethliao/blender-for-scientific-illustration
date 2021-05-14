@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "9040bb960bcbb6a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2c68675f8f7f741",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "200-Area/2021-05-13.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5c7052a55d6ec723",
+    "type": "split",
+    "children": [
+      {
+        "id": "f98221a8ca13f443",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fded0a53ffd6711",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2adbecc2986eb4a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2d86fbe238addf55",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "5b31616710164925",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 580
+  },
+  "right": {
+    "id": "d4e06561f6f28422",
+    "type": "split",
+    "children": [
+      {
+        "id": "537ee0ecce23e0a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "faff4de09c202555",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "200-Area/2021-05-13.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "5cc9ba0fa4da1b0f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "caa6bb14723c7dc9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "200-Area/2021-05-13.md"
+              }
+            }
+          },
+          {
+            "id": "db2adc0759d387ba",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ff3a942a13c87da",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "04e7550b18394388",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "836a20b141e8036f",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "538a8881d5ff556d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "f2c68675f8f7f741",
+  "lastOpenFiles": [
+    "200-Area/2021-05-13.md",
+    "200-Area/tmp-72244GwJp4aSwcie.MD",
+    "200-Area/2021-05-09.md",
+    "200-Area/2021-05-09-DESKTOP-K7J6U2O.md",
+    "200-Area/2021-05-11.md",
+    "200-Area/2021-05-11-DESKTOP-K7J6U2O.md",
+    "200-Area/2021-05-12-XB-20200902WJPV.md",
+    "200-Area/2021-05-12.md",
+    "200-Area/2021-05-13-XB-20200902WJPV.md",
+    "300-Resource/设计简化 视觉负担-XB-20200902WJPV.md"
+  ]
+}
