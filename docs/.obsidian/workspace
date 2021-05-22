@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "项目文档/TODO/钙钛矿太阳能电池.md",
-            "mode": "preview"
+            "file": "配套文件&PPT/【Blender科研绘图】案例7-线粒体/【Blender科研绘图】案例7-线粒体.md",
+            "mode": "source"
           }
         }
       }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目文档/TODO/钙钛矿太阳能电池.md",
+                "file": "配套文件&PPT/【Blender科研绘图】案例7-线粒体/【Blender科研绘图】案例7-线粒体.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目文档/TODO/钙钛矿太阳能电池.md"
+                "file": "配套文件&PPT/【Blender科研绘图】案例7-线粒体/【Blender科研绘图】案例7-线粒体.md"
               }
             }
           },
@@ -132,15 +132,16 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 180,
-    "collapsed": true
+    "width": 180
   },
   "active": "30fcde317a87afae",
   "lastOpenFiles": [
+    "配套文件&PPT/【Blender科研绘图】案例7-线粒体/【Blender科研绘图】案例7-线粒体.md",
     "项目文档/TODO/钙钛矿太阳能电池.md",
     "200-Area/2021-05-14.md",
     "life Kanban.md",
@@ -149,7 +150,6 @@
     "200-Area/2021-05-11.md",
     "200-Area/2021-05-10.md",
     "300-Resource/KanBan.md",
-    "000-MOC/我MOC.md",
-    "200-Area/2021-05-12.md"
+    "000-MOC/我MOC.md"
   ]
 }
