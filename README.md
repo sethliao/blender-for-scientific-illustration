@@ -41,7 +41,7 @@
 
 ## DOING
 
-- 团队内测
+- 教程每周5更新:[志朋](https://space.bilibili.com/20635174)
 
 ## DONE
 
