@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "配套文件&PPT/【Blender科研绘图】案例7-线粒体/【Blender科研绘图】案例7-线粒体.md",
+            "file": "【Blender科研绘图】案例8-凝胶薄膜综合技巧.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "配套文件&PPT/【Blender科研绘图】案例7-线粒体/【Blender科研绘图】案例7-线粒体.md",
+                "file": "【Blender科研绘图】案例8-凝胶薄膜综合技巧.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "配套文件&PPT/【Blender科研绘图】案例7-线粒体/【Blender科研绘图】案例7-线粒体.md"
+                "file": "【Blender科研绘图】案例8-凝胶薄膜综合技巧.md"
               }
             }
           },
@@ -137,10 +137,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 180
+    "width": 501
   },
   "active": "30fcde317a87afae",
   "lastOpenFiles": [
+    "【Blender科研绘图】案例8-凝胶薄膜综合技巧.md",
+    "Untitled.md",
     "配套文件&PPT/【Blender科研绘图】案例7-线粒体/【Blender科研绘图】案例7-线粒体.md",
     "项目文档/TODO/钙钛矿太阳能电池.md",
     "200-Area/2021-05-14.md",
@@ -148,8 +150,6 @@
     "300-Resource/连接文件夹.md",
     "200-Area/2021-05-09.md",
     "200-Area/2021-05-11.md",
-    "200-Area/2021-05-10.md",
-    "300-Resource/KanBan.md",
-    "000-MOC/我MOC.md"
+    "200-Area/2021-05-10.md"
   ]
 }
