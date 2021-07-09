@@ -12,7 +12,8 @@
 
 
 ## 关注我们
-
+[志朋 · 语雀](https://www.yuque.com/zhizhipeng)
+[志朋 · Bilibili](https://space.bilibili.com/20635174)
 
  | 折衡                           | 磊哥              |
  | ------------------------------ | ----------------- |

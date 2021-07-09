@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "【Blender科研绘图】案例8-凝胶薄膜综合技巧.md",
+            "file": "index.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "【Blender科研绘图】案例8-凝胶薄膜综合技巧.md",
+                "file": "index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "【Blender科研绘图】案例8-凝胶薄膜综合技巧.md"
+                "file": "index.md"
               }
             }
           },
@@ -141,15 +141,15 @@
   },
   "active": "30fcde317a87afae",
   "lastOpenFiles": [
-    "【Blender科研绘图】案例8-凝胶薄膜综合技巧.md",
-    "Untitled.md",
-    "配套文件&PPT/【Blender科研绘图】案例7-线粒体/【Blender科研绘图】案例7-线粒体.md",
+    "index.md",
+    "教程总览.md",
+    "科研绘图Kanban.md",
+    "项目文档/渲染设置.md",
+    "项目文档/TODO/常见问题.md",
+    "项目文档/TODO/答疑.md",
+    "项目文档/TODO/仓库及项目视频介绍.md",
+    "项目文档/TODO/会议剪辑.md",
     "项目文档/TODO/钙钛矿太阳能电池.md",
-    "200-Area/2021-05-14.md",
-    "life Kanban.md",
-    "300-Resource/连接文件夹.md",
-    "200-Area/2021-05-09.md",
-    "200-Area/2021-05-11.md",
-    "200-Area/2021-05-10.md"
+    "项目文档/教程/blendero&openbabel绘制分子模型(一).md"
   ]
 }
