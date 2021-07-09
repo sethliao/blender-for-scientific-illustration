@@ -1,3 +1,7 @@
+## 本仓库暂时停更 
+语雀和b站在更新
+[志朋 · 语雀](https://www.yuque.com/zhizhipeng)
+[志朋 · Bilibili](https://space.bilibili.com/20635174)
 # Blender科研绘图开源教程
 
 ![blender科研绘图.jpg](https://github.com/leoopeope/blender-for-scientific-illustration/blob/master/docs/ZZZ-File/blender%20%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE.jpg)
@@ -5,10 +9,7 @@
 - 基于[CG Figures](https://www.youtube.com/channel/UCk1jnnmyARHbP9nfEWUuyhQ)教程改进,进行包装并**开源**
 - 本仓库包含**教程大纲、配套工程文件、配套课件**和**模板工具**等。
 - 还可以从**百度网盘**[下载](https://pan.baidu.com/s/1A_hdLK3UTxnqjb4g5cdHqw)提取码：`a35o` 
-本仓库暂时停更 
-语雀和b站在更新
-[志朋 · 语雀](https://www.yuque.com/zhizhipeng)
-[志朋 · Bilibili](https://space.bilibili.com/20635174)
+
 
 ## 教程特色
 
