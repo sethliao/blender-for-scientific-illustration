@@ -1,0 +1,1388 @@
+
+
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-5.5.12">
+    
+    
+      
+        <title>【Blender科研绘图】案例1-烧杯后期处理 - blender-for-science-visualization-course</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4dd2dd8d.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#blender科研绘图案例1-烧杯后期处理" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../../index.html" title="blender-for-science-visualization-course" class="md-header-nav__button md-logo" aria-label="blender-for-science-visualization-course">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            blender-for-science-visualization-course
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              【Blender科研绘图】案例1-烧杯后期处理
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../../index.html" class="md-tabs__link">
+        Blender科研绘图开源教程
+      </a>
+    
+  </li>
+
+      
+        
+      
+        
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../WIKI/CAD%20workflow.html" class="md-tabs__link">
+          WIKI
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E6%96%87%E4%BB%B6%26%E5%9B%BE%E6%96%87/%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B7-%E7%BA%BF%E7%B2%92%E4%BD%93/%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B7-%E7%BA%BF%E7%B2%92%E4%BD%93.html" class="md-tabs__link">
+          科研绘图文件&图文
+        </a>
+      
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../TODO/%E4%BB%93%E5%BA%93%E5%8F%8A%E9%A1%B9%E7%9B%AE%E8%A7%86%E9%A2%91%E4%BB%8B%E7%BB%8D.html" class="md-tabs__link">
+          项目文档
+        </a>
+      
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../index.html" title="blender-for-science-visualization-course" class="md-nav__button md-logo" aria-label="blender-for-science-visualization-course">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    blender-for-science-visualization-course
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../index.html" title="Blender科研绘图开源教程" class="md-nav__link">
+      Blender科研绘图开源教程
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../%E6%95%99%E7%A8%8B%E6%80%BB%E8%A7%88.html" title="b站教程" class="md-nav__link">
+      b站教程
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BEKanban.html" title="科研绘图Kanban" class="md-nav__link">
+      科研绘图Kanban
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      WIKI
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="WIKI" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        WIKI
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/CAD%20workflow.html" title="CAD workflow" class="md-nav__link">
+      CAD workflow
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/GitHub%20README%E5%8F%82%E8%80%83.html" title="Foam/Obsidian-mkdocs-template" class="md-nav__link">
+      Foam/Obsidian-mkdocs-template
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/PBR%E4%BB%8B%E7%BB%8D.html" title="PBR介绍" class="md-nav__link">
+      PBR介绍
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/fibers.html" title="Fibers" class="md-nav__link">
+      Fibers
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/ppt%E7%94%BB%E7%AC%94.html" title="Ppt画笔" class="md-nav__link">
+      Ppt画笔
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E5%80%92%E8%A7%92%E4%BF%AE%E6%94%B9%E5%99%A8.html" title="倒角修改器" class="md-nav__link">
+      倒角修改器
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E5%8A%A0%E7%B4%A0%E6%9D%90.html" title="加素材" class="md-nav__link">
+      加素材
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E5%AD%97%E5%88%B6%E5%8C%BA%E5%96%9C%E8%84%89%E4%BD%93.html" title="字制区喜脉体" class="md-nav__link">
+      字制区喜脉体
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E5%AE%9E%E4%BD%93%E5%8C%96.html" title="实体化" class="md-nav__link">
+      实体化
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E5%B1%8F%E5%B9%95%E7%94%BB%E7%AC%94%E5%B7%A5%E5%85%B7.html" title="屏幕画笔工具" class="md-nav__link">
+      屏幕画笔工具
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E5%B9%B3%E6%BB%91%E4%BF%AE%E6%94%B9%E5%99%A8.html" title="平滑修改器" class="md-nav__link">
+      平滑修改器
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E5%BD%95%E4%B8%89%E6%AC%A1DEMO.html" title="录三次DEMO" class="md-nav__link">
+      录三次DEMO
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%98%BE%E7%A4%BA%E5%B7%A5%E5%85%B7.html" title="快捷键显示工具" class="md-nav__link">
+      快捷键显示工具
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E7%94%9F%E5%8C%96%E7%8E%AF%E6%9D%90.html" title="生化环材" class="md-nav__link">
+      生化环材
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E7%AE%80%E5%8D%95%E5%BD%A2%E5%8F%98.html" title="简单形变" class="md-nav__link">
+      简单形变
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E7%B2%92%E5%AD%90%E4%BF%AE%E6%94%B9%E5%99%A8.html" title="粒子修改器" class="md-nav__link">
+      粒子修改器
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E7%BA%BF%E6%A1%86%E4%BF%AE%E6%94%B9%E5%99%A8.html" title="线框修改器" class="md-nav__link">
+      线框修改器
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E7%BB%86%E5%88%86.html" title="细分" class="md-nav__link">
+      细分
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E7%BD%AE%E6%8D%A2%E4%BF%AE%E6%94%B9%E5%99%A8.html" title="置换修改器" class="md-nav__link">
+      置换修改器
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E8%AF%BE%E7%A8%8B%E5%A4%A7%E7%BA%B2%E5%AE%89%E6%8E%92.html" title="课程大纲安排" class="md-nav__link">
+      课程大纲安排
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E9%92%99%E9%92%9B%E7%9F%BF%E5%A4%AA%E9%98%B3%E8%83%BD%E7%94%B5%E6%B1%A0.html" title="钙钛矿太阳能电池" class="md-nav__link">
+      钙钛矿太阳能电池
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E9%98%B5%E5%88%97%E4%BF%AE%E6%94%B9%E5%99%A8.html" title="阵列修改器" class="md-nav__link">
+      阵列修改器
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../WIKI/%E9%99%8D%E5%99%AA.html" title="降噪" class="md-nav__link">
+      降噪
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      科研绘图文件&图文
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="科研绘图文件&图文" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        科研绘图文件&图文
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-1" type="checkbox" id="nav-5-1">
+    
+    <label class="md-nav__link" for="nav-5-1">
+      【Blender科研绘图】案例7 线粒体
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="【Blender科研绘图】案例7 线粒体" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-1">
+        <span class="md-nav__icon md-icon"></span>
+        【Blender科研绘图】案例7 线粒体
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E6%96%87%E4%BB%B6%26%E5%9B%BE%E6%96%87/%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B7-%E7%BA%BF%E7%B2%92%E4%BD%93/%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B7-%E7%BA%BF%E7%B2%92%E4%BD%93.html" title="【Blender科研绘图】案例7 线粒体" class="md-nav__link">
+      【Blender科研绘图】案例7 线粒体
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2">
+    
+    <label class="md-nav__link" for="nav-5-2">
+      【Blender科研绘图】案例8 凝胶薄膜综合技巧
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="【Blender科研绘图】案例8 凝胶薄膜综合技巧" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        <span class="md-nav__icon md-icon"></span>
+        【Blender科研绘图】案例8 凝胶薄膜综合技巧
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E6%96%87%E4%BB%B6%26%E5%9B%BE%E6%96%87/%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B8-%E5%87%9D%E8%83%B6%E8%96%84%E8%86%9C%E7%BB%BC%E5%90%88%E6%8A%80%E5%B7%A7/%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B8-%E5%87%9D%E8%83%B6%E8%96%84%E8%86%9C%E7%BB%BC%E5%90%88%E6%8A%80%E5%B7%A7.html" title="【Blender科研绘图】案例8 凝胶薄膜综合技巧" class="md-nav__link">
+      【Blender科研绘图】案例8 凝胶薄膜综合技巧
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+    
+    <label class="md-nav__link" for="nav-6">
+      项目文档
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="项目文档" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        项目文档
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-1" type="checkbox" id="nav-6-1">
+    
+    <label class="md-nav__link" for="nav-6-1">
+      TODO
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="TODO" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-1">
+        <span class="md-nav__icon md-icon"></span>
+        TODO
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../TODO/%E4%BB%93%E5%BA%93%E5%8F%8A%E9%A1%B9%E7%9B%AE%E8%A7%86%E9%A2%91%E4%BB%8B%E7%BB%8D.html" title="仓库及项目视频介绍" class="md-nav__link">
+      仓库及项目视频介绍
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../TODO/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.html" title="常见问题" class="md-nav__link">
+      常见问题
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../TODO/%E7%AD%94%E7%96%91.html" title="答疑" class="md-nav__link">
+      答疑
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../TODO/%E9%92%99%E9%92%9B%E7%9F%BF%E5%A4%AA%E9%98%B3%E8%83%BD%E7%94%B5%E6%B1%A0.html" title="钙钛矿太阳能电池" class="md-nav__link">
+      钙钛矿太阳能电池
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-2" type="checkbox" id="nav-6-2">
+    
+    <label class="md-nav__link" for="nav-6-2">
+      会议记录
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="会议记录" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-2">
+        <span class="md-nav__icon md-icon"></span>
+        会议记录
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E4%BC%9A%E8%AE%AE%E8%AE%B0%E5%BD%95/Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E7%90%86%E5%BF%B5.html" title="特色(优势)" class="md-nav__link">
+      特色(优势)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E4%BC%9A%E8%AE%AE%E8%AE%B0%E5%BD%95/%E8%B0%83%E7%A0%94.html" title="Blender" class="md-nav__link">
+      Blender
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-3" type="checkbox" id="nav-6-3" checked>
+    
+    <label class="md-nav__link" for="nav-6-3">
+      公众号
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="公众号" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-3">
+        <span class="md-nav__icon md-icon"></span>
+        公众号
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B1-%E7%83%A7%E6%9D%AF%E5%90%8E%E6%9C%9F%E5%A4%84%E7%90%86.html" title="【Blender科研绘图】案例1-烧杯后期处理" class="md-nav__link md-nav__link--active">
+      【Blender科研绘图】案例1-烧杯后期处理
+    </a>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B10-%E7%BC%96%E7%BB%87%E7%89%A9.html" title="【Blender科研绘图】案例10 编织物" class="md-nav__link">
+      【Blender科研绘图】案例10 编织物
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B11-%E6%B0%B4%E5%87%9D%E8%83%B6.html" title="【Blender科研绘图】案例11-水凝胶" class="md-nav__link">
+      【Blender科研绘图】案例11-水凝胶
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B12-%E5%A4%9A%E5%AD%94%E7%BB%93%E6%9E%84.html" title="【Blender科研绘图】案例12-多孔结构" class="md-nav__link">
+      【Blender科研绘图】案例12-多孔结构
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B13-%E6%9F%94%E6%80%A7%E7%BA%A4%E7%BB%B4.html" title="【Blender科研绘图】案例13-柔性纤维" class="md-nav__link">
+      【Blender科研绘图】案例13-柔性纤维
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B14-%E6%B3%A1%E6%B2%AB%E9%95%8D.html" title="【Blender科研绘图】案例14-泡沫镍" class="md-nav__link">
+      【Blender科研绘图】案例14-泡沫镍
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B15-OLED%E5%99%A8%E4%BB%B6.html" title="【Blender科研绘图】案例15-OLED器件" class="md-nav__link">
+      【Blender科研绘图】案例15-OLED器件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B3-C60.html" title="【Blender科研绘图】案例3-C60" class="md-nav__link">
+      【Blender科研绘图】案例3-C60
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B4-CNT%20%E7%A2%B3%E7%BA%B3%E7%B1%B3%E7%AE%A1.html" title="【Blender科研绘图】案例4-CNT|碳纳米管" class="md-nav__link">
+      【Blender科研绘图】案例4-CNT|碳纳米管
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B5-%E6%9E%84%E5%BB%BA%E4%BB%BB%E4%BD%95%E5%88%86%E5%AD%90%E7%9A%843D%E6%A8%A1%E5%9E%8B.html" title="【Blender科研绘图】案例5-构建任何分子的3D模型" class="md-nav__link">
+      【Blender科研绘图】案例5-构建任何分子的3D模型
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B7-%E9%92%99%E9%92%9B%E7%9F%BF%E5%88%86%E5%AD%90%E7%BB%93%E6%9E%84.html" title="【Blender科研绘图】案例7-钙钛矿分子结构" class="md-nav__link">
+      【Blender科研绘图】案例7-钙钛矿分子结构
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B8-%E7%A3%B7%E8%84%82%E5%8F%8C%E5%88%86%E5%AD%90%E5%B1%82.html" title="【Blender科研绘图】案例8-磷脂双分子层" class="md-nav__link">
+      【Blender科研绘图】案例8-磷脂双分子层
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B9-%E6%9F%94%E6%80%A7%E5%A4%AA%E9%98%B3%E8%83%BD%E7%94%B5%E6%B1%A0%E6%9D%BF.html" title="【Blender科研绘图】案例9-柔性太阳能电池板" class="md-nav__link">
+      【Blender科研绘图】案例9-柔性太阳能电池板
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-4" type="checkbox" id="nav-6-4">
+    
+    <label class="md-nav__link" for="nav-6-4">
+      教程
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="教程" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-4">
+        <span class="md-nav__icon md-icon"></span>
+        教程
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E6%95%99%E7%A8%8B/blendero%26openbabel%E7%BB%98%E5%88%B6%E5%88%86%E5%AD%90%E6%A8%A1%E5%9E%8B%28%E4%B8%80%29.html" title="Blendero&openbabel绘制分子模型(一)" class="md-nav__link">
+      Blendero&openbabel绘制分子模型(一)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E6%95%99%E7%A8%8B/blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E5%85%A5%E9%97%A8%E4%BB%8B%E7%BB%8D.html" title="Blender科研绘图入门介绍" class="md-nav__link">
+      Blender科研绘图入门介绍
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E6%95%99%E7%A8%8B/blender%E7%BB%98%E5%88%B6%E5%88%86%E5%AD%90%E6%A8%A1%E5%9E%8B%28%E4%BA%8C%29.html" title="Blender绘制分子模型(二)" class="md-nav__link">
+      Blender绘制分子模型(二)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../%E6%95%99%E7%A8%8B/pdb-workflow.html" title="原子类" class="md-nav__link">
+      原子类
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="blender科研绘图案例1-烧杯后期处理">【Blender科研绘图】案例1-烧杯后期处理<a class="headerlink" href="#blender科研绘图案例1-烧杯后期处理" title="Permanent link">#</a></h1>
+<p><strong>Blender 下载地址 (免费开源无需任何破解):</strong></p>
+<p><a href="https://www.blendercn.org/">https://www.blendercn.org/</a></p>
+<p><strong>Blender 建模部分：</strong> </p>
+<p><a href="https://space.bilibili.com/20635174?spm_id_from=333.788.b_765f7570696e666f.1">https://space.bilibili.com/20635174?spm\_id\_from=333.788.b\_765f7570696e666f.1</a></p>
+<p><strong>案例所有素材及文件下载</strong>：</p>
+<p>在公众号后台回复：案例 1</p>
+<p><strong>系列开始说明</strong></p>
+<p><em><strong>1</strong></em></p>
+<p>各位朋友们，大家好呀，在这个系列开始之前，我还是想说一下。此系列，是由我和志朋合作的工作。案例的建模及视频录制大部分工作是由志朋负责，而我负责制作后期工作，因为我们都仍然在上学，凭借共同的兴趣爱好和想法想做出一系列更好的视频来帮助科研工作者们来更好地完成绘图工作</p>
+<p><strong>我们的主要建模工具为 Blender</strong>，相比于传统的老大哥 3D Max/C4D, Blender 有着开源的环境，大家可以在官网下载到正版的版本，并且可以及时享受到开发人员更新后的版本，此外 Blender 功能及全、效率高、插件安装极其容易、体积小免费开源等有点让其在国外成为科研绘图的主要工具之一，但是由于语言问题，国内 Blender 的教学较少，优秀的案例教学需要花费巨额的费用来购买。因此，志朋和我谈了很久，我们准备将 Blender 科研绘图系列做出来，以帮助更多的人了解科研绘图、及 Blender 建模、CG 动画制作及图片处理的过程。</p>
+<p><strong>后期的制作工具主要为</strong>: <strong>Photoshop/Illustrator/PPT</strong>，没有安装的朋友可直接在后台回复 Ai 或 PS 下载</p>
+<p>朋友们，希望这一系列教程对大家有所帮助，也希望我们可以将此系列一直做下去。</p>
+<p>此案例最终渲染效果图</p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkAvfQjEKu5dyeicdAdpLpW1z6p6FcHHhxrLqD7Y1pZaGsO7gqiaiaR4mCw/640?wx_fmt=png" /></p>
+<p><strong>文件导入及背景制作</strong></p>
+<p><em><strong>2</strong></em></p>
+<ol>
+<li>PS 版本新建画布选择 Web/1920*1080 / 右边默认即可创建</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkuSoxxGvickSKXqyW2XMR3JmDwU8wCnsEia2oh43gXeFiasSc2nNbXCibEg/640?wx_fmt=png" /></p>
+<ol>
+<li>将渲染好的烧杯 PNG 格式图拖动到 PS 中，然后点击背景图层，添加背景颜色（建模过程见 b 站）</li>
+</ol>
+<p><a href="https://www.bilibili.com/video/BV12b4y1R7HX/">https://www.bilibili.com/video/BV12b4y1R7HX/</a></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUk5ia0HKqluXS0oCxsLkY1cJhU17d9FncrVzHqGBVq10R29qGiag5p5KMQ/640?wx_fmt=png" /></p>
+<ol>
+<li>选择渐变工具，按住 Shift 键盘在背景图层从上面向下拖动</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkhWPp4icUTdx6Mw3JRHGTpRkAaJicuwkKogFHmecib8EHzPkgWlbWEprfQ/640?wx_fmt=png" /></p>
+<ol>
+<li>背景制作完成</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkAfLvHUCmItIPUUSQgJNia53doUswIqdN8xMTCmichUD3euhc4cQZZsIQ/640?wx_fmt=png" /></p>
+<p><strong>发光效果制作</strong>  </p>
+<p><em><strong>3</strong></em></p>
+<ol>
+<li>点添加新建图层 / 选择图层 1（双击可以改名）</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkVeXkZV63QLavWLRwB80AwmyqFZXsRdepc4FqKibNtRXD1WMjMQCx4Mw/640?wx_fmt=png" /></p>
+<ol>
+<li>选择多边形套索工具</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUk3aicjjPJjwYcTMKoNFhMQGvbuMRthybFEwzmt6d79ice3dHvial5ib8eyw/640?wx_fmt=png" /></p>
+<ol>
+<li>在刚才新建的图层上勾画出一定的形状 (不需要特别准备画一个大致范围即可)</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUknMHDI4I3h29FeEU6bCFhLQiaOmdlDpkw8MtF7ibsn6JuDr5M8WXJeDFQ/640?wx_fmt=png" /></p>
+<ol>
+<li>点击右下角选项 / 选择曲线    </li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkDN219Yibx9YqNFrAwEFydePH8r3HsiaRibhRJnmw0Rp71Mh1I5eYsIIDQ/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkZMAQD1b0Via9IGx0ttAAJvP4RUs3p64sPLJHoqWSfsErFwDSXLIEAqw/640?wx_fmt=png" /></p>
+<ol>
+<li>选择蓝色通道 / 将蓝色通道拉成如图所示 (差不多类似即可)</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkHkrQO2QlnmnEKjJzsy45V7tMw3oWqoibVlYcXcBYbYkE2512o7y7K6Q/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkhUALnH6wjvGZQOUGIzGgryD3qCB1e2r0M7otaMJPb9BcaB6ja2gAow/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUky0gH1DhIRuibDCJkU1mah7NdORB7hk1rZbJ6JeCtl6iceWibN93hruFUg/640?wx_fmt=png" /></p>
+<ol>
+<li>此时回到图层页面，可以看到刚才圈出来的地方变成了黄色</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkd7W07JafoEicdYCu6xCpm2SJPicxlBasyibTJg12dKIdHNw9F3f4wXZPA/640?wx_fmt=png" /></p>
+<ol>
+<li>此时点击移动工具点击黄色的形状可以适当移动其位置</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUk4L0jkqThWGlruRVDRlCsOiaRhgE4Ticg8NmISr8xYUh7KTtSTmLeicEwg/640?wx_fmt=png" /></p>
+<ol>
+<li>添加高斯模糊滤镜</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkQwqdSbRHWtSson5GibSZs0ZnkvtJ1fHT781HUxSdiavUs9xENibvu8OYw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkYgWyDiaD890vDPn0fMXSh3Ayfc8kGMmhI4vbUvWPCOdWWzgsS1EHzQw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkT8A55k5ibWgWnt03gIicnsOY3icpZo2xVeVsSwBW94oEia5LwPnqnLzquw/640?wx_fmt=png" /></p>
+<ol>
+<li>复制图层调整曲线</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkGiaJVWZOq4UBnvEnrHicfG98KoPleiaR5QicjQvmFTSfKqcsTI6M9tdDpQ/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkjP0LwyiaiaNfsibM6RkPWI7XoHALCFB3NC28kSLEW7ubD79J1D4OibsJPA/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkgiczs2Mz75oDRwibeHwhXrs4uy5zDhSKEQoMdFjonM2jyVonDWP4xBtg/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkpFBMPySaVq27Xkdz4jxVCaRsA64bXib11ic345NHAk97rpgocxTnXw0w/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkcUn9BpWaPBCrJVEcrsIjMFIVfLMiapdicGchbKsuEHMGHY53MdlRPiaxw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkDdHPqRoCmjSevX19uQyTBnQITyPoia0Y33hRjAZsbNWA5BZa0vTXwcg/640?wx_fmt=png" /></p>
+<p><strong>太阳制作</strong></p>
+<p><em><strong>4</strong></em></p>
+<ol>
+<li>创建太阳，并填充颜色，填充颜色快捷键 (Ctrl+Backspace)</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkGSD0hk3PRp6n1pt0djPgxeCib7HUGsWTaAtsUGSR0Ifq5XD7Eudud7w/640?wx_fmt=png" /></p>
+<ol>
+<li>给太阳添加效果</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkfEmLm9qVhn0t4lkGGibGmsdF7mmvEbAKLKClbKpUibQO2V80ZngxRINw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUk76l6TEsAhCIEBe5eaGCwjcia9vMI9gDyuYrianMQX8BJMhKQ8wMzQQqw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkiaic8KkmxD1AaR1Rz42UIOALyfbqWPTQnJqVomN0sKiaX0En2Aiaib4f9pw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUk0QaeHb4918Z7vRDhABgn92FYPX24s846GTvVPW38IeVteMOBDfsbibA/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkptwTWhhO90VibYnXkr6pPGo5OSjJ130PfC45Ul2ABeVfDKoxFgGn6icQ/640?wx_fmt=png" /></p>
+<p>（注意！选择好 “树” 的图案之后可以适当调整其在椭圆在画布中的位置）</p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkDLDibnQLIRI8oJtmUrbf8jMu5KLptBfAwrKSQO5qLHYa3r6X00nxdnw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkf1icZkxZ20qndSEwePdQdmUYauenSPtCDvRd4FZzo6AZNNyDqPdBU7g/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkAzzH6xL0M8fyewib1y40uiaOj5Ry5sX8OicyDv8RibDPEKiaPxqJ1uFGK3A/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkpRTO0b0X15opW8qgkfe3jK9wRNvJHwKWyp3z4FpgFmuxLkY9gVBtHA/640?wx_fmt=png" /></p>
+<ol>
+<li>效果完成</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkY4cPQhnrIpIVY1icVicCXOib5Qfjd1Ok3BLUUXtYH1hVibu1iajUmj8vdHw/640?wx_fmt=png" /></p>
+<p><strong>纳米颗粒制作</strong></p>
+<p><strong><em>5</em></strong></p>
+<ol>
+<li>打开 3D 窗口</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkJzIBFVu4mrHmAvW0nEibGukxyEhxRiaqeOicBFAaCKpKO62sCwJrgFcAQ/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkAhW8LicMwKA7LaYZswLlyFb9CppicFYXJ14vsMhKSlW57P8ziaXYPUuVQ/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkt1goxNv7Oabiaw4h2BmFb0zW7ianibxwSSyCNeXupMqfUmE76TlicmXqgQ/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUk34dZnFPb7R0NqJ5iaMDv0YEDR11qOgmRlnAL8ao2kPSQzdhiaicDyuciag/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUk4UQLTPHSrPoMfXWcYeu6B9BXX7quciaibdBp5mDpRBPMD1cSgMib5uvog/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkcyoZCWUl0iaia295POiccbDtrL1gg9wEAuiajWpaE7xknaFpwmibZq9YMFA/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkw1Ouhn9DM6tQmd205C9AuxUKcAsBcWbUib1ticWSrjuic4xeg909V0CkA/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkh6fSx9bNaiaia6WDzcPhm1cmhpWmx4EAUU38gyz9yJIq7hh65Oj3yNoA/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkDJnWYzT9qlVdwQ4Wbb4HKu0hic7wicqwOhDLbtXzPZaXn54aMzf2oaDA/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkOibk7loYjgsydYbxdTnibe2PGlLGtDib8uibBxduxX5gHXC0Zr8kr5Yv4A/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkaSYticJaHxgcaZiaXibdfO9DSAibRGX6WJKz7YCH8mxibKgh3hZYGyHp9sw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkagViaRjYeT9qnOpicFOlK2ia2l9cc2yRKODuvvdsHvalJic4bJa2vO63yA/640?wx_fmt=png" /></p>
+<p><strong>添加文字</strong></p>
+<p><strong><em>6</em></strong></p>
+<ol>
+<li>添加新的图层添加文字</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkUkuqaqclEiakGiarjm4fWejnXCAgXpJjYmnz6L5glemb09ohLE2x6HVQ/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkx0YgzsC0A8A2h4LcnXvcykJib4BwhNqkygYCXmejrJsia6QbTfEfNVzQ/640?wx_fmt=png" /></p>
+<ol>
+<li>效果图见下</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkbq1TKIdckaRvHZQM3bHDfcvnLDCP2YkV7fI8c313mYWCxlW8AHyClw/640?wx_fmt=png" /></p>
+<ol>
+<li>添加温度示意条</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkZorDeiaia0cPp3OztsQ1N1K48iaJL3Eq9dlu8UketWTBm9gxwL1kuQENw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUklWTiaibFcqW0UkZriavpeeMCHSFnBibFdtJhLvQPTNlYJ63U09un5kibibBw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkaOyNj5r4M73PNVNNe4KpyvgaDyHRqT3XBGxqvD3SVcicW9pEvYk76nQ/640?wx_fmt=png" /></p>
+<p><strong>添加气泡</strong></p>
+<p><strong><em>7</em></strong></p>
+<ol>
+<li>导入新的画笔库</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkSX86OGEupK3Lv8UdJp7PRvhGiaKeE2d9mYXSq0KT46VUneQCPObogZw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkk6TJhtDvjh1kcqoybAFFdW7Qda8OrXX6tjeqMvkt5icg9hViaZ5sEfyQ/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkkswOh2dTT3tOibBibolgiaOD3E0D5Ro1KYSwbBno4jGGCYBATDpNc3KBA/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkjPnA1ObgAphWRicQ3shrJjVeGVXy6qbhwtsxlO0uNiay7qjd03LmlN4w/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUk6wR16jRggPohs0nk3BfQ4CPlBndwmZXowfAFXCibt5K0vicSw40J5WHw/640?wx_fmt=png" /></p>
+<ol>
+<li>多点几个位置调整气泡大小即可</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUka84uicgndSWsYv0NvIAbcSJvNaxaw4BElB4SSjqiaqKHQTtGxYtZ5ZLA/640?wx_fmt=png" /></p>
+<p><strong>创建箭头</strong></p>
+<p><strong><em>8</em></strong></p>
+<ol>
+<li>由于在 PS 创建好看的箭头比较复杂，故在 Ai 里面进行绘制，如果不想自己操作，直接在下载的资料包进行复制拖到 PS 里面即可，下面讲解如何在 Ai 画箭头。<strong>首先在 Ai 随便创建一个画布，并选择钢笔工具</strong></li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUklVib0KgE474kYRNNvcKDWGe6iaTfiaicyatC8WkA0ga97ibVaPqXyYibsQyA/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUk4Ns00S9AjEZ3XveZTABpnkUF63LZAawrbPbxUDic4pAa0t9C47YlpQA/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkUQGCMD1F2heyD3uLjfKPGOoUh1D0C8x08nlE4Cr5HEkCHTX0G8hqEA/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkl9zTCLsbfpu2KX2prtjLiaBTibCUPdGEyoiaz34icXLAUXkZQrrDICPjTw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkp4gNAdleSvdQhZXkFdQlJUkiccwUWF8xshH6FLT0sP1NEnsdCjyEksA/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkw0ypq4lxxOI5ZTrt2o1uuQ21AVqPicqGuib5r9srqcaHTlQbuiat59f2w/640?wx_fmt=png" /></p>
+<ol>
+<li>Ctrl+C/Ctrl+V 复制即可，将箭头粘贴为像素，按 Ctrl+T 调整箭头大小及选择角度</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkYchFS0Xu180Dn5mz7TF2YoBiagqYLePUrn9HZmQeJMANElj7B2niamcw/640?wx_fmt=png" /></p>
+<ol>
+<li>同样的操作制作出红色箭头并调整好位置见下图</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUk7FRXVCibvOqhgeuGMNtvRDeaGqiaqDxHK6tBmIhET5VHxa8mSQ3wfERw/640?wx_fmt=png" /></p>
+<p><strong>滤镜</strong></p>
+<p><em><strong>9</strong></em></p>
+<ol>
+<li>对整体效果经常调色处理</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkuzRh13o3sbF3sym4PGzq8icYNvNutEE5Dg5fEduejjEMOPicJGBgiaMiaw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUk7zfpqcQvqdZLy1rB2oVVVQZYCZianVrDznalG3DsBScicyjXoUHfDkuw/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkvDxjKBeCutHS6yq7ibmzSa5QYDgw6uIJhOYDarTbiaZIJ40ruvRHxWEg/640?wx_fmt=png" /></p>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkFkia6TsBDP8WCLAIAVC3N9KEWxxobqzdQsn84qYdg5Jss7jG5Z2Wa6A/640?wx_fmt=png" /></p>
+<p><strong>添加水蒸气</strong></p>
+<p><em><strong>10</strong></em></p>
+<ol>
+<li>导入素材库的 PNG 蒸汽图片，调整位置大小即可</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkCvdrTdXnpAMovnRTJrwo8gGoMc8TPIibG178q5XYDAEv5MTyK3ppKDQ/640?wx_fmt=png" /></p>
+<ol>
+<li>最后效果如下</li>
+</ol>
+<p><img alt="" src="https://mmbiz.qpic.cn/mmbiz_png/uicuMum8Zv8Meibv1dPicNQ5nkOtCXvYAUkAvfQjEKu5dyeicdAdpLpW1z6p6FcHHhxrLqD7Y1pZaGsO7gqiaiaR4mCw/640?wx_fmt=png" /> <br />
+<a href="https://mp.weixin.qq.com/s?__biz=Mzg3ODA5MTk2Mw==&amp;mid=2247484058&amp;idx=1&amp;sn=af38a6085a5d4a87f0fffdbf4c10c268&amp;chksm=cf18494ef86fc05885f1a06c12a5e2cd3a730afcfc1cea7af077af5c561ac7612b67c68e080a&amp;scene=178&amp;cur_album_id=1752875309680377865#rd">https://mp.weixin.qq.com/s?__biz=Mzg3ODA5MTk2Mw==&amp;mid=2247484058&amp;idx=1&amp;sn=af38a6085a5d4a87f0fffdbf4c10c268&amp;chksm=cf18494ef86fc05885f1a06c12a5e2cd3a730afcfc1cea7af077af5c561ac7612b67c68e080a&amp;scene=178&amp;cur_album_id=1752875309680377865#rd</a></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../%E4%BC%9A%E8%AE%AE%E8%AE%B0%E5%BD%95/%E8%B0%83%E7%A0%94.html" title="Blender" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                Blender
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="%E3%80%90Blender%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE%E3%80%91%E6%A1%88%E4%BE%8B10-%E7%BC%96%E7%BB%87%E7%89%A9.html" title="【Blender科研绘图】案例10 编织物" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                【Blender科研绘图】案例10 编织物
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ["navigation.expand", "tabs"],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
