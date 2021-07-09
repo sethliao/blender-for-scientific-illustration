@@ -1,3 +1,7 @@
+## 本仓库暂时停更 
+语雀和b站在更新
+[志朋 · 语雀](https://www.yuque.com/zhizhipeng)
+[志朋 · Bilibili](https://space.bilibili.com/20635174)
 # Blender科研绘图开源教程
 
 ![blender科研绘图.jpg](https://github.com/leoopeope/blender-for-scientific-illustration/blob/master/docs/ZZZ-File/blender%20%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE.jpg)
